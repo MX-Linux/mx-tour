@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# KDE specific MX Tour for MX Linux 21
+# KDE specific MX Tour for MX Linux 23
 #
 
 # set some stuff up
@@ -16,8 +16,8 @@ KEY=$(( ($$ * $RANDOM) % 2**15))
 
 WINDOW_ICON=/usr/share/icons/hicolor/scalable/apps/mx-tour.svg
 WINDOW_CLASS=mx-tour
-WINDOW_WIDTH=950
-WINDOW_HEIGHT=708
+WINDOW_WIDTH=800
+WINDOW_HEIGHT=620
 
 # l10n
 export TEXTDOMAIN=mx-tour
