@@ -1,3 +1,9 @@
+mx-tour (23.7.02mx23) mx; urgency=medium
+
+  * fix desktop file
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 08 Jul 2023 21:57:35 -0400
+
 mx-tour (23.7.01mx23) mx; urgency=medium
 
   * Beginning text revisions for MXFB
