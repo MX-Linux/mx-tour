@@ -292,7 +292,7 @@ QSI is also a handy log viewer.
 
 It is important to include your QSI when asking for help on the MX Forum so that the MX Community can better help you.
 
-QSI automatically filters potentially sensitive information like personal identifiers. This information will instead show as "<filter>" in the report.
+QSI automatically filters potentially sensitive information such as personal identifiers, showing it instead as "<filter>".
 ')
 
 #Information on timeshift system rollback tool
