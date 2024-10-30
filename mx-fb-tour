@@ -26,7 +26,7 @@ source gettext.sh
 if [ -e ./text.sh ]; then
     source text.sh
 else
-    source /usr/lib/mx-tour/text.sh
+    source /usr/share/mx-tour/text.sh
 fi
 
         TITLE=$(gettext "MX Tour (Fluxbox)")

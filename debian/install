@@ -1,4 +1,4 @@
-text/* usr/share/mx-tour/text
+#text/* usr/share/mx-tour/text
 images/* usr/share/mx-tour/images
 desktop-files/* usr/share/mx-tour/desktop-files
 mx-tour.desktop usr/share/applications/
@@ -8,5 +8,5 @@ mx-tour usr/bin/
 mx-xfce-tour usr/bin/
 mx-kde-tour usr/bin/
 mx-fb-tour usr/bin/
-text.sh /usr/lib/mx-tour
+text.sh /usr/share/mx-tour
 #translations/mo/* /
