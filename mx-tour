@@ -23,7 +23,7 @@ WINDOW_HEIGHT=740
 # l10n
 export TEXTDOMAIN=mx-tour
 export TEXTDOMAINDIR=/usr/share/locale
-#. gettext.sh
+source gettext.sh
 
         TITLE=$(gettext "MX Tour")
         INTRO=$(gettext "Intro")

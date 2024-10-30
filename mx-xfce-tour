@@ -22,8 +22,12 @@ WINDOW_HEIGHT=620
 # l10n
 export TEXTDOMAIN=mx-tour
 export TEXTDOMAINDIR=/usr/share/locale
-#. gettext.sh
-
+source gettext.sh
+if [ -e ./text.sh ]; then
+    source text.sh
+else
+    source /usr/lib/mx-tour/text.sh
+fi
         TITLE=$(gettext "MX Tour (Xfce)")
         INTRO=$(gettext "Intro")
         PANEL=$(gettext "Panel")
@@ -55,18 +59,18 @@ pushtext(){  # push text file into var
     IFS='' read -r -d '' ${var} < <( eval cat "${file}") || true
 }
 # push texfiles into bash var's , where varname corresponds to filename 
-for F in ${TXTDIR}/*; do
-    [[ -f ${F}      ]] || continue     # only files
-    
-    N=${F##*/}   # basename
-    N=${N//-/_}  # replace hyphens with underline
-    [[ -z ${N##*.*} ]] && continue  # ignore any backup files with dot
-    [[ -z ${N##*~}  ]] && continue  # ignore any backup files with ~
+#for F in ${TXTDIR}/*; do
+#    [[ -f ${F}      ]] || continue     # only files
+#
+#    N=${F##*/}   # basename
+#    N=${N//-/_}  # replace hyphens with underline
+#    [[ -z ${N##*.*} ]] && continue  # ignore any backup files with dot
+#    [[ -z ${N##*~}  ]] && continue  # ignore any backup files with ~
 
-    declare -n nameref=$N
-    pushtext "$F" $N
-	nameref=$(gettext "$nameref")
-done
+#    declare -n nameref=$N
+#    pushtext "$F" $N
+#	nameref=$(gettext "$nameref")
+#done
 
 TEXT_INFO="--text-info --wrap --margins=5"
 

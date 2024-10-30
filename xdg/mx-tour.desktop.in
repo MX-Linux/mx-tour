@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+# The desktop entry name will be displayed within the menu.
+Name=MX Tour
+# The desktop entry comment will be shown within the menu.
+Comment=Explore and learn about MX Linux
+Exec=mx-tour
+Type=Application
+Icon=mx-tour
+Categories=System;MX-Setup;
+Terminal=false
+NoDisplay=false
+StartupNotify=false

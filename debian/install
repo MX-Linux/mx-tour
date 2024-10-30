@@ -8,3 +8,5 @@ mx-tour usr/bin/
 mx-xfce-tour usr/bin/
 mx-kde-tour usr/bin/
 mx-fb-tour usr/bin/
+text.sh /usr/lib/mx-tour
+#translations/mo/* /
