@@ -1,4 +1,4 @@
-#!/bin/bash
+#this file is not executed, its sourced.
 
 #information about appfinder menu on used on MX fluxobx
 app_finder=$(gettext 'The Application Finder (Applications Menu) is a easy to use and flexible main menu.
