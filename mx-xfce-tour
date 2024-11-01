@@ -186,8 +186,7 @@ MAIN=(
     --tab="$TIMESHIFT"
     --tab="$SYSTEM_INFO"
     --tab="$GET_HELP"
-    --active-tab=${1:-1}
-    )
+)
 
 "${MAIN[@]}"
 
