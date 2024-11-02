@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-30 20:15-0400\n"
+"POT-Creation-Date: 2024-11-02 18:21-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. !/bin/bash
+#. this file is not executed, its sourced.
 #. information about appfinder menu on used on MX fluxobx
 #: ../text.sh:4
 msgid ""
@@ -203,8 +203,8 @@ msgid ""
 "MX Snapshot allows you to create a bootable ISO file of your currently "
 "running MX Linux installation.\n"
 "\n"
-"Using MX Live USB Maker, you can write the ISO file to CD/DVD or USB to use "
-"as a recovery method or to install on other systems.\n"
+"Using MX Live USB Maker, you can write the ISO file to USB to use as a "
+"recovery method or to install on other systems.\n"
 "\n"
 "Two types of Snapshot ISO files can be created:\n"
 "• “Personal Snapshot” - saves almost everything, used to backup current "

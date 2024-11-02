@@ -148,7 +148,7 @@ Right-Clicking the Discover icon allows you to:
 #information on mx-snaphshot tool
 mx_snapshot=$(gettext 'MX Snapshot allows you to create a bootable ISO file of your currently running MX Linux installation.
 
-Using MX Live USB Maker, you can write the ISO file to CD/DVD or USB to use as a recovery method or to install on other systems.
+Using MX Live USB Maker, you can write the ISO file to USB to use as a recovery method or to install on other systems.
 
 Two types of Snapshot ISO files can be created:
 • “Personal Snapshot” - saves almost everything, used to backup current system, and personal files
