@@ -1,20 +1,14 @@
 Source: mx-tour
 Section: admin
 Priority: optional
-Maintainer: SwampRabbit <swamprabbit@mxlinux.org>
-Build-Depends: debhelper-compat (= 13)
+Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+Build-Depends: debhelper (>=10), qtbase5-dev, qttools5-dev-tools
 Rules-Requires-Root: no
 Standards-Version: 4.5.1
-Homepage: https://github.com/SwampRabbit/mx-tour
+Vcs-Git: https://github.com/MX-Linux/mx-tour
 
 Package: mx-tour
-Architecture: all
-Depends: ${misc:Depends}
-Description: Take a tour of MX Linux 21
- Using a new Operating System for the first time can seem challenging and scary.
- .
- MX Tour is designed to introduce and orient you to many of the features and 
- graphical tools of the Xfce, KDE, and Fluxbox Editions of MX Linux.
- .
- Only the applicable Tour is shown dependent on the version of MX Linux you
- are using.
+Architecture: any
+Depends: ${misc:Depends},
+          ${shlibs:Depends}
+Description: Take a tour of MX Linux

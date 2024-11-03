@@ -5,7 +5,7 @@ mx-tour (24.10.01mx23) mx; urgency=medium
 
  -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 01 Nov 2024 19:56:49 -0400
 
- mx-tour (23.7.02mx23) mx; urgency=medium
+mx-tour (23.7.02mx23) mx; urgency=medium
 
   * fix desktop file
 
@@ -15,7 +15,7 @@ mx-tour (23.7.01mx23) mx; urgency=medium
 
   * Beginning text revisions for MXFB
   * mxfb_mx_snapshot, mxfb_dock and mxfb_app_finder
-  * finished revision of mxfb_app_finder 
+  * finished revision of mxfb_app_finder
   * added rofi to mxfb_app_finder
   * revised mxfb_tweak to include new theme section
   * small edits of various texts
@@ -38,7 +38,7 @@ mx-tour (0.2-1~mx21+1) mx; urgency=low
   * Add initial KDE text and images.
 
  -- SwampRabbit <swamprabbit@mxlinux.org>  Mon, 20 Sep 2021 17:03:42 -0400
- 
+
 mx-tour (0.1-1~mx21+1) mx; urgency=low
 
   * Initial Proof of Concept development.

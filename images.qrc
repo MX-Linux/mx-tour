@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/app_finder.png</file>
+        <file>images/conky.png</file>
+        <file>images/discover.png</file>
+        <file>images/docklike.png</file>
+        <file>images/kde_menu.png</file>
+        <file>images/kde_panel.png</file>
+        <file>images/kde_tour_intro.png</file>
+        <file>images/kde_tweak.png</file>
+        <file>images/kde_update.png</file>
+        <file>images/mx_snapshot.png</file>
+        <file>images/mx_tools.png</file>
+        <file>images/mx_tweak.png</file>
+        <file>images/mx_updater.png</file>
+        <file>images/mx_welcome.png</file>
+        <file>images/mxfb_app_finder.png</file>
+        <file>images/mxfb_dock.png</file>
+        <file>images/mxfb_settings.png</file>
+        <file>images/mxfb_tour_intro.png</file>
+        <file>images/mxfb_tweak.png</file>
+        <file>images/mxfb_updater.png</file>
+        <file>images/mxpi.png</file>
+        <file>images/qsi.png</file>
+        <file>images/timeshift.png</file>
+        <file>images/tint2_panel.png</file>
+        <file>images/whisker_menu.png</file>
+        <file>images/xfce_panel.png</file>
+        <file>images/xfce_tour_intro.png</file>
+    </qresource>
+</RCC>

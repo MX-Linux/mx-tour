@@ -1,22 +1,8 @@
-# About MX Tour
+# mx-welcome
 
-Take a tour of MX Linux 21.
+[![latest packaged version(s)](https://repology.org/badge/latest-versions/mx-welcome.svg)](https://repology.org/project/mx-welcome/versions)
+[![build result](https://build.opensuse.org/projects/home:mx-packaging/packages/mx-welcome/badge.svg?type=default)](https://software.opensuse.org//download.html?project=home%3Amx-packaging&package=mx-welcome)
 
-Using a new Operating System for the first time can seem challenging and scary.
+Program for displaying a welcome message in MX Linux.
 
-MX Tour is designed to quickly introduce and orient you to many of the features and graphical tools of the different Desktop Editions of MX Linux (Xfce, KDE, and Fluxbox).
-
-Only the applicable Tour is shown dependent on the version of MX Linux you are using.
-
-Original directional-sign icon and hand-drawn-map-background designed by [Freepik](https://www.freepik.com)
-
-## Internationalization
-   Coming Soon
-
-## Limitations
-
-+ images are in English only at the moment
-+ Tour window does not scale, resolution of 1024x768 or greater is needed
-
-## Background
-MX Tour initially was just a Proof of Concept MX Linux 21 Tour Guide application created using only Yet Another Dialog (YAD).  After good reception and interest, it was expanded, still using just YAD, to become a full fledge application that hopefully can be useful to new users.
+![image](https://github.com/MX-Linux/mx-welcome/assets/418436/44ea74b4-ef2d-4924-828a-7dc710f7c8c7)

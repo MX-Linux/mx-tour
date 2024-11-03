@@ -1,8 +1,0 @@
-MX Tweak brings together many small customizations organized under different Tabs.
-
-Tabs Overview:
- • Themes - select appearance elements: theme, MXFB style, icons and cursor; there is a separate app for Font
- • Fluxbox - set values for Dock, Menu, Desktop Icon, Toolbar and Thunar; Reset to defaults
- • Other - enable internal drive mount options, reset login screen, disable the All Apps menu, switch administrative account
-
-Note: Some "tweaks" may not always appear, as they are desktop environment and hardware dependent.
