@@ -43,7 +43,7 @@ MainWindow::MainWindow(const QCommandLineParser& arg_parser, QWidget* parent)
     setWindowFlags(Qt::Window); // For the close, min and max buttons
     connect(ui->buttonCancel, &QPushButton::pressed, this, &MainWindow::close);
     setup();
-    ui->tabWidget->setCurrentIndex(22);
+    ui->tabWidget->setCurrentIndex(0);
 
 
 }
