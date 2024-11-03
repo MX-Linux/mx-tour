@@ -43,7 +43,7 @@ MainWindow::MainWindow(const QCommandLineParser& arg_parser, QWidget* parent)
     setWindowFlags(Qt::Window); // For the close, min and max buttons
     connect(ui->buttonCancel, &QPushButton::pressed, this, &MainWindow::close);
     setup();
-    ui->tabWidget->setCurrentIndex(0);
+    ui->tabWidget->setCurrentIndex(22);
 
 
 }
@@ -64,13 +64,42 @@ void MainWindow::setup()
     }else {
         xfceTour();{}
     }
+    //setup help icons
+    ui->buttonFAQ->setIcon(QIcon::fromTheme("nfoview"));
+    ui->buttonManual->setIcon(QIcon::fromTheme("fbreader"));
+    ui->buttonFacebook->setIcon(QIcon::fromTheme("facebook"));
+    ui->buttonForum->setIcon(QIcon::fromTheme("mx-user"));
+    ui->buttonReddit->setIcon(QIcon::fromTheme("reddit"));
+    ui->buttonVideo->setIcon(QIcon::fromTheme("multimedia-video-player"));
+    ui->buttonWiki->setIcon(QIcon::fromTheme("wikipedia"));
 
-    ui->buttonFAQ->setIcon(QIcon::fromTheme("infoview"));
     this->setWindowTitle(tr("MX Tour"));
     this->adjustSize();
 }
 
-// Util function for getting bash command output and error code
+// Util functi//intro 0
+//mxfbpanel 1
+//mxfb appfinder 2
+//kde panel 3
+//xfce panel 4
+//kde menu 5
+//xfce menu 6
+//xfce taskbasr 7
+//mxfb dock 8
+//conky 9
+//mx tools 10
+//mx welcome 11
+//mxfb settings 12
+//mx tweak 13
+//xfce tweak 14
+//kde tweak 15
+//install apps 16
+//discover 17
+//updateing 18
+//mx snapshot 19
+//timeshift 20
+//qsi 21
+//help 22on for getting bash command output and error code
 QString MainWindow::runCmd(const QString& cmd)
 {
     QEventLoop loop;
@@ -132,6 +161,31 @@ bool MainWindow::checkPlasma() const
     QString test = runCmd(QStringLiteral("pgrep plasma"));
     return (!test.isEmpty());
 }
+
+//tab key index
+//intro 0
+//mxfbpanel 1
+//mxfb appfinder 2
+//kde panel 3
+//xfce panel 4
+//kde menu 5
+//xfce menu 6
+//xfce taskbasr 7
+//mxfb dock 8
+//conky 9
+//mx tools 10
+//mx welcome 11
+//mxfb settings 12
+//mx tweak 13
+//xfce tweak 14
+//kde tweak 15
+//install apps 16
+//discover 17
+//updateing 18
+//mx snapshot 19
+//timeshift 20
+//qsi 21
+//help 22
 
 void MainWindow::fluxboxTour() {
 
@@ -212,5 +266,48 @@ void MainWindow::kdeTour() {
     ui->graphicSystemInfo->setPixmap(QPixmap(":images/qsi.png"));
     ui->graphicTimeshift->setPixmap(QPixmap(":images/timeshift.png"));
     ui->graphicDiscover->setPixmap(QPixmap(":/images/discover.png"));
+}
+
+
+void MainWindow::on_buttonFAQ_clicked()
+{
+    system("mx-faq");
+}
+
+
+void MainWindow::on_buttonManual_clicked()
+{
+    system("mx-manual");
+}
+
+
+void MainWindow::on_buttonWiki_clicked()
+{
+    system("xdg-open https://mxlinux.org/wiki/");
+}
+
+
+void MainWindow::on_buttonVideo_clicked()
+{
+    system("xdg-open http://www.mxlinux.org/videos/");
+}
+
+
+void MainWindow::on_buttonForum_clicked()
+{
+    system("xdg-open https://forum.mxlinux.org/");
+}
+
+
+
+void MainWindow::on_buttonFacebook_clicked()
+{
+    system("xdg-open https://www.facebook.com/groups/665300826967101/");
+}
+
+
+void MainWindow::on_buttonReddit_clicked()
+{
+    system("xdg-open https://www.reddit.com/r/MXLinux/");
 }
 

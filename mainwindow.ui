@@ -1087,20 +1087,13 @@ QSI automatically filters potentially sensitive information such as personal ide
              </property>
             </spacer>
            </item>
-           <item row="0" column="0">
-            <widget class="QLabel" name="label">
-             <property name="text">
-              <string>TextLabel</string>
-             </property>
-            </widget>
-           </item>
            <item row="2" column="1">
             <widget class="FlatButton" name="buttonFacebook">
              <property name="focusPolicy">
               <enum>Qt::NoFocus</enum>
              </property>
              <property name="text">
-              <string>Tweak (Panel, etc...)</string>
+              <string>Facebook</string>
              </property>
              <property name="icon">
               <iconset>
@@ -1222,7 +1215,7 @@ QSI automatically filters potentially sensitive information such as personal ide
               <enum>Qt::NoFocus</enum>
              </property>
              <property name="text">
-              <string>Tools</string>
+              <string>Reddit</string>
              </property>
              <property name="icon">
               <iconset>
@@ -1239,6 +1232,13 @@ QSI automatically filters potentially sensitive information such as personal ide
              </property>
              <property name="flat">
               <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0" colspan="2" alignment="Qt::AlignHCenter">
+            <widget class="QLabel" name="texHelp">
+             <property name="text">
+              <string>Below are some available resources to get help</string>
              </property>
             </widget>
            </item>

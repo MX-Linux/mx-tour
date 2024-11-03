@@ -63,6 +63,20 @@ private slots:
 
     void on_buttonPrevious_clicked();
 
+    void on_buttonFAQ_clicked();
+
+    void on_buttonManual_clicked();
+
+    void on_buttonWiki_clicked();
+
+    void on_buttonVideo_clicked();
+
+    void on_buttonForum_clicked();
+
+    void on_buttonFacebook_clicked();
+
+    void on_buttonReddit_clicked();
+
 private:
     Ui::MainWindow *ui;
     QProcess *proc {};
