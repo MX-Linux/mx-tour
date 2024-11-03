@@ -203,7 +203,7 @@
         <enum>QTabWidget::North</enum>
        </property>
        <property name="currentIndex">
-        <number>12</number>
+        <number>22</number>
        </property>
        <property name="usesScrollButtons">
         <bool>true</bool>
@@ -1017,6 +1017,234 @@ QSI automatically filters potentially sensitive information such as personal ide
         <attribute name="title">
          <string>Getting Help</string>
         </attribute>
+        <layout class="QGridLayout" name="gridLayout_48">
+         <item row="0" column="0">
+          <layout class="QGridLayout" name="gridLayout_47">
+           <item row="1" column="1">
+            <widget class="FlatButton" name="buttonForum">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="text">
+              <string>Forums</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/icons/forums.png</normaloff>:/icons/forums.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>42</width>
+               <height>42</height>
+              </size>
+             </property>
+             <property name="autoDefault">
+              <bool>true</bool>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="FlatButton" name="buttonFAQ">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="text">
+              <string>FAQ</string>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>42</width>
+               <height>42</height>
+              </size>
+             </property>
+             <property name="autoDefault">
+              <bool>true</bool>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>40</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="FlatButton" name="buttonFacebook">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="text">
+              <string>Tweak (Panel, etc...)</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/icons/mxwelcome-icon-panel-orient.png</normaloff>:/icons/mxwelcome-icon-panel-orient.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>42</width>
+               <height>42</height>
+              </size>
+             </property>
+             <property name="autoDefault">
+              <bool>true</bool>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="FlatButton" name="buttonManual">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="text">
+              <string>Users Manual</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/icons/users-manual.png</normaloff>:/icons/users-manual.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>42</width>
+               <height>42</height>
+              </size>
+             </property>
+             <property name="autoDefault">
+              <bool>true</bool>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="FlatButton" name="buttonWiki">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="text">
+              <string>Wiki</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/icons/wiki.png</normaloff>:/icons/wiki.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>42</width>
+               <height>42</height>
+              </size>
+             </property>
+             <property name="autoDefault">
+              <bool>true</bool>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="FlatButton" name="buttonVideo">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="text">
+              <string>Videos</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/icons/videos.png</normaloff>:/icons/videos.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>42</width>
+               <height>42</height>
+              </size>
+             </property>
+             <property name="autoDefault">
+              <bool>true</bool>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="FlatButton" name="buttonReddit">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
+             <property name="text">
+              <string>Tools</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/icons/tools.png</normaloff>:/icons/tools.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>42</width>
+               <height>42</height>
+              </size>
+             </property>
+             <property name="autoDefault">
+              <bool>true</bool>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
        </widget>
       </widget>
      </item>
@@ -1024,6 +1252,13 @@ QSI automatically filters potentially sensitive information such as personal ide
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FlatButton</class>
+   <extends>QPushButton</extends>
+   <header>flatbutton.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

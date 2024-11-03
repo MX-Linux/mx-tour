@@ -64,6 +64,8 @@ void MainWindow::setup()
     }else {
         xfceTour();{}
     }
+
+    ui->buttonFAQ->setIcon(QIcon::fromTheme("infoview"));
     this->setWindowTitle(tr("MX Tour"));
     this->adjustSize();
 }
