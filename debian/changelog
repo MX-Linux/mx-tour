@@ -1,3 +1,11 @@
+mx-tour (24.11.01mx23) mx; urgency=medium
+
+  * Use qt rather than yad/bash
+  * set up for translations
+  * new desktop file translation script to harvest from qt ts files
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 03 Nov 2024 16:50:01 -0500
+
 mx-tour (24.10.01mx23) mx; urgency=medium
 
   * remove active tab select
