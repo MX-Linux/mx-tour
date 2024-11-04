@@ -203,7 +203,7 @@
         <enum>QTabWidget::North</enum>
        </property>
        <property name="currentIndex">
-        <number>22</number>
+        <number>19</number>
        </property>
        <property name="usesScrollButtons">
         <bool>true</bool>
@@ -572,14 +572,16 @@ The Docklike Taskbar (3) Properties can also be accessed from the Panel Tab of M
            <item row="1" column="1">
             <widget class="QPlainTextEdit" name="textMXFBAppDock">
              <property name="plainText">
-              <string>Docklike Taskbar is a lightweight, modern, and minimalist application taskbar that sits in the panel below the clock.  It starts with Firefox browser and Thunar File Manager pinned on it.
+              <string>The Quick Launch Application Dock sits on the left side of the screen and by default provides easy access to a few commonly used applications.
 
-A few things to know about Docklike Taskbar are that you can:
+It consists of:
+(1) MX Tools
+(2) MX Fluxbox Settings Manager
+(3) MX Fluxbox User Manual
+ 
+The default dock can easily be modified using MX Dockmaker; furthermore, it can be placed on auto-hide or cancelled completely using the root Menu &gt; Out of Sight.
 
-(1) &quot;Pin&quot; an open application by Right-Clicking and checking &quot;Pin to Dock&quot;
-(2) Customize the look and feel by Right-Clicking between two icons and selecting (3) Properties
-
-The Docklike Taskbar (3) Properties can also be accessed from the Panel Tab of MX Tweak.
+Another dock option is available using tint2 (the software behind the panel), which makes much greater customization possible. Two tint2 dock configurations can be found using the root Menu &gt; Appearance &gt; Dock.
 </string>
              </property>
             </widget>
@@ -702,11 +704,9 @@ You can use the 'Show this dialog at start up' checkbox (as shown above) if you 
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textMXFBSettings">
              <property name="plainText">
-              <string>When you booted your system for the first time, you should have noticed a Welcome screen that appeared in the center of the screen that offers quick orientation and help links for new and veteran users.
+              <string>MXFB Settings Manager is your one-stop shop for tools to save you effort with important tasks and customizations using settings often involving unintuitive steps.
 
-You can access MX Welcome again by finding it in the main Main Application Menu or by opening MX Tools.
-
-You can use the 'Show this dialog at start up' checkbox (as shown above) if you would like to see MX Welcome each time your system starts and uncheck it when you no longer need it.
+MXFB Settings Manager includes many applications have been developed specifically for MX Linux Fluxbox.
 </string>
              </property>
             </widget>
@@ -908,6 +908,43 @@ Right-Clicking the icon brings up a menu with many options, such as:
 (2) Check for Updates - checks for more updates
 (3) Preferences - opens the preferences window
 </string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="KDEUpdating">
+        <attribute name="title">
+         <string>Updating</string>
+        </attribute>
+        <layout class="QGridLayout" name="gridLayout_50">
+         <item row="0" column="0">
+          <layout class="QGridLayout" name="gridLayout_49">
+           <item row="0" column="0">
+            <widget class="QLabel" name="graphicKDEUpdater">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QPlainTextEdit" name="textUpdate_2">
+             <property name="plainText">
+              <string>Updates in MX KDE are handled by the Discover application.
+
+When updates are available, the Discover icon will appear with a red dot on it in the System Tray area of the panel.
+
+You can then Left-Click the Discover icon in the System Tray and it will open to show you available updates.
+
+You can install all available updates or selectively choose the ones you want.
+
+Right-Clicking the Discover icon allows you to:
+    • Open Discover
+    • See Updates
+    • Refresh
+    • Quit</string>
              </property>
             </widget>
            </item>

@@ -64,6 +64,7 @@ void MainWindow::setup()
     }else {
         xfceTour();{}
     }
+
     //setup help icons
     ui->buttonFAQ->setIcon(QIcon::fromTheme("nfoview"));
     ui->buttonManual->setIcon(QIcon::fromTheme("fbreader"));
@@ -77,29 +78,7 @@ void MainWindow::setup()
     this->adjustSize();
 }
 
-// Util functi//intro 0
-//mxfbpanel 1
-//mxfb appfinder 2
-//kde panel 3
-//xfce panel 4
-//kde menu 5
-//xfce menu 6
-//xfce taskbasr 7
-//mxfb dock 8
-//conky 9
-//mx tools 10
-//mx welcome 11
-//mxfb settings 12
-//mx tweak 13
-//xfce tweak 14
-//kde tweak 15
-//install apps 16
-//discover 17
-//updateing 18
-//mx snapshot 19
-//timeshift 20
-//qsi 21
-//help 22on for getting bash command output and error code
+// Util function for getting bash command output and error code
 QString MainWindow::runCmd(const QString& cmd)
 {
     QEventLoop loop;
@@ -182,14 +161,16 @@ bool MainWindow::checkPlasma() const
 //install apps 16
 //discover 17
 //updateing 18
-//mx snapshot 19
-//timeshift 20
-//qsi 21
-//help 22
+//kdeupdating 19
+//mx snapshot 20
+//timeshift 21
+//qsi 22
+//help 23
 
 void MainWindow::fluxboxTour() {
 
-    ui->tabWidget->removeTab(20);
+    ui->tabWidget->removeTab(21);
+    ui->tabWidget->removeTab(19);
     ui->tabWidget->removeTab(17);
     ui->tabWidget->removeTab(15);
     ui->tabWidget->removeTab(14);
@@ -216,6 +197,7 @@ void MainWindow::fluxboxTour() {
 }
 
 void MainWindow::xfceTour() {
+    ui->tabWidget->removeTab(19);
     ui->tabWidget->removeTab(17);
     ui->tabWidget->removeTab(15);
     ui->tabWidget->removeTab(13);
@@ -243,6 +225,7 @@ void MainWindow::xfceTour() {
 
 void MainWindow::kdeTour() {
 
+    ui->tabWidget->removeTab(18);
     ui->tabWidget->removeTab(14);
     ui->tabWidget->removeTab(13);
     ui->tabWidget->removeTab(12);
@@ -266,6 +249,7 @@ void MainWindow::kdeTour() {
     ui->graphicSystemInfo->setPixmap(QPixmap(":images/qsi.png"));
     ui->graphicTimeshift->setPixmap(QPixmap(":images/timeshift.png"));
     ui->graphicDiscover->setPixmap(QPixmap(":/images/discover.png"));
+    ui->graphicKDEUpdater->setPixmap(QPixmap(":/images/kde_update.png"));
 }
 
 
