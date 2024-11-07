@@ -1,0 +1,72 @@
+#!/bin/bash
+
+#harvest strings from ts files to populate desktop entries
+# Function to parse .ts file and store translations in an associative array
+
+#requires libxml2-utils
+
+declare -A translations
+
+parse_ts_file() {
+    ts_file="$1"
+
+    # Use xmllint to parse the .ts file
+    while IFS= read -r line; do
+        if [[ "$line" =~ \<source\>(.*)\<\/source\> ]]; then
+            source_text="${BASH_REMATCH[1]}"
+        elif [[ "$line" =~ \<translation\>(.*)\<\/translation\> ]]; then
+            translation="${BASH_REMATCH[1]}"
+            # Add to translations associative array
+            translations["$source_text"]="$translation"
+        fi
+    done < <(xmllint --xpath '//context/message/*' "$ts_file")
+}
+
+update_desktop_file() {
+    desktop_file="$1"
+    output_file="${2:-$desktop_file}"
+
+    # Read the original .desktop file line by line
+    while IFS= read -r line; do
+        # Check if line has "Name" or "Comment" and extract key-value
+        if [[ "$line" =~ ^(Name|Comment|Keywords)\=(.*) ]]; then
+            key="${BASH_REMATCH[1]}"
+            value="${BASH_REMATCH[2]}"
+            # Keep original line
+            echo "$line"
+            for i in $ts_file_list; do
+                lang=${i#*_}
+                lang=${lang%%.*}
+                # Parse the .ts file to fill the translations array
+                parse_ts_file "$i"
+            # Check if translation exists for the value
+                if [[ -n "${translations[$value]}" ]]; then
+                    # Replace with translated value
+                    echo "$key[$lang]=${translations[$value]}"
+                fi
+        done
+        else
+            # Keep lines that don't need translation
+            echo "$line"
+        fi
+    done < "$desktop_file" > "$output_file"
+
+    echo "Updated .desktop file saved to: $output_file"
+}
+
+# Usage
+ts_file_list="$(find translations/*.ts -not -path *_en.ts)"
+desktop_file_list="$(find desktop-in/*.desktop.in)"
+
+
+# Update the .desktop file with translations
+for file in $desktop_file_list; do
+    output_file="$(basename  -s .in $file)"
+    if [ -e "$output_file" ]; then
+        echo "removing existing $output_file"
+        rm "$output_file"
+    fi
+    update_desktop_file "$file" "$output_file"
+    sed -i '/^#/d' $file
+done
+

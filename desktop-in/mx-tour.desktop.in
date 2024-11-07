@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MX Tour
+Comment=Explore and learn about MX Linux
+Exec=mx-tour
+Type=Application
+Icon=mx-tour
+Categories=System;MX-Setup;
+Terminal=false
+NoDisplay=false
+StartupNotify=false

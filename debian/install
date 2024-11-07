@@ -1,10 +1,6 @@
-text/* usr/share/mx-tour/text
-images/* usr/share/mx-tour/images
-desktop-files/* usr/share/mx-tour/desktop-files
-mx-tour.desktop usr/share/applications/
-mx-tour.svg usr/share/pixmaps/
-mx-tour.svg usr/share/icons/hicolor/scalable/apps/
-mx-tour usr/bin/
-mx-xfce-tour usr/bin/
-mx-kde-tour usr/bin/
-mx-fb-tour usr/bin/
+icons/*.png		usr/share/icons/hicolor/48x48/apps
+icons/*.svg		usr/share/icons/hicolor/scalable/apps
+mx-tour			usr/bin
+mx-tour.desktop		usr/share/applications
+translations/*.qm		usr/share/mx-tour/locale
+license.html usr/share/doc/mx-tour

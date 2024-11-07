@@ -1,3 +1,18 @@
+mx-tour (24.11.02mx23) mx; urgency=medium
+
+  * release Qt version
+  * no new translations at this time
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 06 Nov 2024 19:31:28 -0500
+
+mx-tour (24.11.01mx23) mx; urgency=medium
+
+  * Use qt rather than yad/bash
+  * set up for translations
+  * new desktop file translation script to harvest from qt ts files
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sun, 03 Nov 2024 16:50:01 -0500
+
 mx-tour (24.10.01mx23) mx; urgency=medium
 
   * remove active tab select
@@ -15,7 +30,7 @@ mx-tour (23.7.01mx23) mx; urgency=medium
 
   * Beginning text revisions for MXFB
   * mxfb_mx_snapshot, mxfb_dock and mxfb_app_finder
-  * finished revision of mxfb_app_finder 
+  * finished revision of mxfb_app_finder
   * added rofi to mxfb_app_finder
   * revised mxfb_tweak to include new theme section
   * small edits of various texts
@@ -38,7 +53,7 @@ mx-tour (0.2-1~mx21+1) mx; urgency=low
   * Add initial KDE text and images.
 
  -- SwampRabbit <swamprabbit@mxlinux.org>  Mon, 20 Sep 2021 17:03:42 -0400
- 
+
 mx-tour (0.1-1~mx21+1) mx; urgency=low
 
   * Initial Proof of Concept development.
