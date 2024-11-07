@@ -74,6 +74,31 @@ void MainWindow::setup()
     ui->buttonVideo->setIcon(QIcon::fromTheme("multimedia-video-player"));
     ui->buttonWiki->setIcon(QIcon::fromTheme("wikipedia"));
 
+    //set text blocks noteditable
+    ui->textConky->setReadOnly(true);
+    ui->textDiscover->setReadOnly(true);
+    ui->textInstallApps->setReadOnly(true);
+    ui->textIntro->setReadOnly(true);
+    ui->textKDEmenu->setReadOnly(true);
+    ui->textKDEpanel->setReadOnly(true);
+    ui->textKDETweak->setReadOnly(true);
+    ui->textMXFBAppDock->setReadOnly(true);
+    ui->textMXFBappfinder->setReadOnly(true);
+    ui->textMXFBPanel->setReadOnly(true);
+    ui->textMXFBSettings->setReadOnly(true);
+    ui->textMXTools->setReadOnly(true);
+    ui->textMXTweak->setReadOnly(true);
+    ui->textMXWelcome->setReadOnly(true);
+    ui->textSnapshot->setReadOnly(true);
+    ui->textSystemInfo->setReadOnly(true);
+    ui->textTimeshift->setReadOnly(true);
+    ui->textUpdate->setReadOnly(true);
+    ui->textUpdate_2->setReadOnly(true);
+    ui->textXfceMenu->setReadOnly(true);
+    ui->textXfcePanel->setReadOnly(true);
+    ui->textXfceTaskbar->setReadOnly(true);
+    ui->textXFCETweak->setReadOnly(true);
+
     this->setWindowTitle(tr("MX Tour"));
     this->adjustSize();
 }

@@ -62,7 +62,7 @@
      <item row="0" column="5">
       <widget class="QPushButton" name="buttonPrevious">
        <property name="text">
-        <string extracomment="as in go back a step">Previous</string>
+        <string extracomment="as in go back a step">&amp;Previous</string>
        </property>
        <property name="shortcut">
         <string>Alt+P</string>
@@ -100,7 +100,7 @@
         <string>About this application</string>
        </property>
        <property name="text">
-        <string extracomment="bring up the About... dialog">About...</string>
+        <string extracomment="bring up the About... dialog">A&amp;bout...</string>
        </property>
        <property name="icon">
         <iconset theme="help-about">
@@ -132,7 +132,7 @@
         <string>Quit application</string>
        </property>
        <property name="text">
-        <string extracomment="cancel and don't do anything else">Close</string>
+        <string extracomment="cancel and don't do anything else">&amp;Close</string>
        </property>
        <property name="icon">
         <iconset theme="window-close">
@@ -152,7 +152,7 @@
      <item row="0" column="6">
       <widget class="QPushButton" name="buttonNext">
        <property name="text">
-        <string extracomment="as in go forward a step">Next</string>
+        <string extracomment="as in go forward a step">&amp;Next</string>
        </property>
        <property name="shortcut">
         <string>Alt+N</string>
