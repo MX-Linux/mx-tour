@@ -1,88 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="en_US">
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../mainwindow.ui" line="14"/>
-        <location filename="../mainwindow.ui" line="662"/>
-        <source>MX Welcome</source>
+        <location filename="../mainwindow.ui" line="65"/>
+        <source>Previous</source>
+        <extracomment>as in go back a step</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="74"/>
-        <source>Quit application</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="77"/>
-        <source>Close</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="84"/>
-        <source>Alt+N</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="119"/>
-        <source>Next</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="135"/>
+        <location filename="../mainwindow.ui" line="97"/>
         <source>About this application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="138"/>
+        <location filename="../mainwindow.ui" line="100"/>
         <source>About...</source>
+        <extracomment>bring up the About... dialog</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="145"/>
+        <location filename="../mainwindow.ui" line="107"/>
         <source>Alt+B</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="174"/>
-        <source>Previous</source>
+        <location filename="../mainwindow.ui" line="129"/>
+        <source>Quit application</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="213"/>
+        <location filename="../mainwindow.ui" line="132"/>
+        <source>Close</source>
+        <extracomment>cancel and don&apos;t do anything else</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="139"/>
+        <source>Alt+N</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="152"/>
+        <source>Next</source>
+        <extracomment>as in go forward a step</extracomment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="191"/>
         <source>Intro</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="221"/>
-        <location filename="../mainwindow.ui" line="254"/>
-        <location filename="../mainwindow.ui" line="301"/>
-        <location filename="../mainwindow.ui" line="342"/>
-        <location filename="../mainwindow.ui" line="390"/>
-        <location filename="../mainwindow.ui" line="449"/>
-        <location filename="../mainwindow.ui" line="492"/>
-        <location filename="../mainwindow.ui" line="535"/>
-        <location filename="../mainwindow.ui" line="568"/>
-        <location filename="../mainwindow.ui" line="603"/>
-        <location filename="../mainwindow.ui" line="640"/>
-        <location filename="../mainwindow.ui" line="670"/>
-        <location filename="../mainwindow.ui" line="700"/>
-        <location filename="../mainwindow.ui" line="728"/>
-        <location filename="../mainwindow.ui" line="761"/>
-        <location filename="../mainwindow.ui" line="797"/>
-        <location filename="../mainwindow.ui" line="829"/>
-        <location filename="../mainwindow.ui" line="865"/>
-        <location filename="../mainwindow.ui" line="895"/>
-        <location filename="../mainwindow.ui" line="928"/>
-        <location filename="../mainwindow.ui" line="965"/>
-        <location filename="../mainwindow.ui" line="997"/>
-        <location filename="../mainwindow.ui" line="1031"/>
-        <source>TextLabel</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="228"/>
+        <location filename="../mainwindow.ui" line="206"/>
         <source>Using a new Operating System for the first time can seem challenging and scary.
 
 MX Tour is designed to introduce and orient you to many of the features and graphical tools of MX Linux.
@@ -95,14 +66,14 @@ We hope you find this tour useful!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="246"/>
-        <location filename="../mainwindow.ui" line="334"/>
-        <location filename="../mainwindow.ui" line="382"/>
+        <location filename="../mainwindow.ui" line="224"/>
+        <location filename="../mainwindow.ui" line="312"/>
+        <location filename="../mainwindow.ui" line="360"/>
         <source>Panel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="261"/>
+        <location filename="../mainwindow.ui" line="239"/>
         <source>Lets explore some of the key components of the Tint2 panel at the bottom of the screen.
 
 (1) Appfinder (Application Menu)
@@ -129,12 +100,12 @@ Even more options to customize your panel exist under Settings Manager &gt; Tint
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="293"/>
+        <location filename="../mainwindow.ui" line="271"/>
         <source>App Finder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="308"/>
+        <location filename="../mainwindow.ui" line="286"/>
         <source>There are three very different application finders in MXFB, providing the user with choice of which to retain and use.
 
 1. The Applications Menu (&quot;Rofi Appfinder&quot;) is opened by Left-Clicking on the MX logo in the Panel. It consists of three main areas:
@@ -155,7 +126,7 @@ The search field is automatically focused when opening the menu, so you can just
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="349"/>
+        <location filename="../mainwindow.ui" line="327"/>
         <source>The default KDE panel sits at the bottom on the screen and includes from left to right:
 
 (1) Application Menu
@@ -183,7 +154,7 @@ Panel orientation is easily changeable in MX Tools &gt; MX Tweak.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="397"/>
+        <location filename="../mainwindow.ui" line="375"/>
         <source>
 You have probably noticed that the default desktop of MX Linux has a single vertical panel on the left side of the screen.  
 
@@ -222,12 +193,12 @@ Lets explore some of the key components of the panel from top to bottom:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="441"/>
+        <location filename="../mainwindow.ui" line="419"/>
         <source>Main Menu</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="456"/>
+        <location filename="../mainwindow.ui" line="434"/>
         <source>The Application Menu is a easy to use and flexible main menu.
 
 It consists of five main areas:
@@ -250,12 +221,12 @@ You can edit the Application Menu properties by Right-Clicking on it.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="484"/>
+        <location filename="../mainwindow.ui" line="462"/>
         <source>Menu</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="499"/>
+        <location filename="../mainwindow.ui" line="477"/>
         <source>
 The Whisker Menu (Applications Menu) is a easy to use and flexible main menu.
 
@@ -278,12 +249,12 @@ You can edit the Whisker Menu properties by Right-Clicking on it.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="527"/>
+        <location filename="../mainwindow.ui" line="505"/>
         <source>Taskbar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="542"/>
+        <location filename="../mainwindow.ui" line="520"/>
         <source>Docklike Taskbar is a lightweight, modern, and minimalist application taskbar that sits in the panel below the clock.  It starts with Firefox browser and Thunar File Manager pinned on it.
 
 A few things to know about Docklike Taskbar are that you can:
@@ -296,12 +267,12 @@ The Docklike Taskbar (3) Properties can also be accessed from the Panel Tab of M
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="560"/>
+        <location filename="../mainwindow.ui" line="538"/>
         <source>App Dock</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="575"/>
+        <location filename="../mainwindow.ui" line="553"/>
         <source>The Quick Launch Application Dock sits on the left side of the screen and by default provides easy access to a few commonly used applications.
 
 It consists of:
@@ -316,12 +287,12 @@ Another dock option is available using tint2 (the software behind the panel), wh
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="595"/>
+        <location filename="../mainwindow.ui" line="573"/>
         <source>Conky</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="610"/>
+        <location filename="../mainwindow.ui" line="588"/>
         <source>You may have wondered about the Clock in the upper right corner of your screen, it is a Conky.
 
 Conky is a light-weight system monitor that can display any kind of information on your desktop, either as text, or using simple progress bars and graph widgets, with different fonts and colors.
@@ -338,12 +309,12 @@ MX Linux comes with three tools for Conky:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="632"/>
+        <location filename="../mainwindow.ui" line="610"/>
         <source>MX Tools</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="647"/>
+        <location filename="../mainwindow.ui" line="625"/>
         <source>Many applications have been developed specifically for MX Linux, adapted or brought over from antiX Linux, or adapted from outside sources to save you effort with important tasks often involving unintuitive steps.
 
 The MX Tools dashboard (shown above), centralizes and organizes these tools for easy access and use.
@@ -353,7 +324,12 @@ Lets explore some MX Tools to help you setup and use your computer.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="677"/>
+        <location filename="../mainwindow.ui" line="640"/>
+        <source>MX Welcome</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="655"/>
         <source>When you booted your system for the first time, you should have noticed a Welcome screen that appeared in the center of the screen that offers quick orientation and help links for new and veteran users.
 
 You can access MX Welcome again by finding it in the main Main Application Menu or by opening MX Tools.
@@ -363,12 +339,12 @@ You can use the &apos;Show this dialog at start up&apos; checkbox (as shown abov
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="692"/>
+        <location filename="../mainwindow.ui" line="670"/>
         <source>MX Fluxbox Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="707"/>
+        <location filename="../mainwindow.ui" line="685"/>
         <source>MXFB Settings Manager is your one-stop shop for tools to save you effort with important tasks and customizations using settings often involving unintuitive steps.
 
 MXFB Settings Manager includes many applications have been developed specifically for MX Linux Fluxbox.
@@ -376,14 +352,14 @@ MXFB Settings Manager includes many applications have been developed specificall
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="720"/>
-        <location filename="../mainwindow.ui" line="753"/>
-        <location filename="../mainwindow.ui" line="789"/>
+        <location filename="../mainwindow.ui" line="698"/>
+        <location filename="../mainwindow.ui" line="731"/>
+        <location filename="../mainwindow.ui" line="767"/>
         <source>MX Tweak</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="735"/>
+        <location filename="../mainwindow.ui" line="713"/>
         <source>MX Tweak brings together many small customizations organized under different Tabs.
 
 Tabs Overview:
@@ -396,7 +372,7 @@ Note: Some &quot;tweaks&quot; may not always appear, as they are desktop environ
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="768"/>
+        <location filename="../mainwindow.ui" line="746"/>
         <source>MX Tweak brings together many small but often used customizations organized under different Tabs.
 
 Tabs Overview:
@@ -412,7 +388,7 @@ Note: Some &quot;tweaks&quot; may not always appear, as they are desktop environ
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="804"/>
+        <location filename="../mainwindow.ui" line="782"/>
         <source>MX Tweak brings together some small but often used customizations organized under different Tabs.
 
 Tabs Overview:
@@ -424,12 +400,12 @@ Note: Some &quot;tweaks&quot; may not always appear, as they are desktop environ
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="821"/>
+        <location filename="../mainwindow.ui" line="799"/>
         <source>Install Apps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="836"/>
+        <location filename="../mainwindow.ui" line="814"/>
         <source>MX Package Installer, often referred to simply as MXPI, allows you to search for, install, or remove packages and applications quickly, safely, and easily.
 
 It consists of Tabs to help you install &quot;Popular Applications&quot; and any package in the MX/Debian Stable, the MX Test, Debian Backports, and Flatpak repositories.
@@ -445,12 +421,12 @@ And the Console Output tab can help you troubleshoot installation or removal iss
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="857"/>
+        <location filename="../mainwindow.ui" line="835"/>
         <source>Discover</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="872"/>
+        <location filename="../mainwindow.ui" line="850"/>
         <source>Discover is also available for use to search for, install, or remove packages and applications quickly, safely, and easily.
 
 It is a KDE native application so it also allows you to install KDE application and Plasma Add-ons such as widgets and extensions.
@@ -460,13 +436,13 @@ Discover may be considered more user friendly for new users but it is not config
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="887"/>
-        <location filename="../mainwindow.ui" line="920"/>
+        <location filename="../mainwindow.ui" line="865"/>
+        <location filename="../mainwindow.ui" line="898"/>
         <source>Updating</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="902"/>
+        <location filename="../mainwindow.ui" line="880"/>
         <source>MX Updater sits in the Notification Area of the panel.
 
 The icon turns green when updates are available and notifications will also alert you that updates exist. Left-Clicking the icon opens a window showing available updates.
@@ -479,7 +455,7 @@ Right-Clicking the icon brings up a menu with many options, such as:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="935"/>
+        <location filename="../mainwindow.ui" line="913"/>
         <source>Updates in MX KDE are handled by the Discover application.
 
 When updates are available, the Discover icon will appear with a red dot on it in the System Tray area of the panel.
@@ -496,12 +472,17 @@ Right-Clicking the Discover icon allows you to:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="957"/>
+        <location filename="../mainwindow.ui" line="935"/>
         <source>MX Snapshot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="972"/>
+        <location filename="../mainwindow.ui" line="943"/>
+        <source>TextLabel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="950"/>
         <source>MX Snapshot allows you to create a bootable ISO file of your currently running MX Linux installation.
 
 Using MX Live USB Maker, you can write the ISO file USB to use as a recovery method or to install on other systems.
@@ -513,12 +494,12 @@ Two types of Snapshot ISO files can be created:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="989"/>
+        <location filename="../mainwindow.ui" line="967"/>
         <source>Timeshift</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1004"/>
+        <location filename="../mainwindow.ui" line="982"/>
         <source>Timeshift is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system and settings at scheduled intervals. These snapshots can be restored at a later date to undo all changes to the system.
 
 When you open Timeshift the first time, a Setup Wizard will run allowing you to select the location snapshots are saved to, the schedule, and if you want to include personal files or not.  You can rerun the Setup Wizard or change these settings at any time.
@@ -532,12 +513,12 @@ ATTENTION!
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1023"/>
+        <location filename="../mainwindow.ui" line="1001"/>
         <source>System Info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1038"/>
+        <location filename="../mainwindow.ui" line="1016"/>
         <source>Quick System Info, also known as QSI, is a great and easy way to get a lot of information about your computer hardware and MX Linux installation.
 
 The output is automatically copied to the clipboard, it can also be pasted directly into a MX Forum post complete with code tags, or pasted into a Text document for use later.
@@ -549,48 +530,56 @@ QSI automatically filters potentially sensitive information such as personal ide
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1055"/>
+        <location filename="../mainwindow.ui" line="1033"/>
         <source>Getting Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1072"/>
+        <location filename="../mainwindow.ui" line="1050"/>
         <source>Forums</source>
+        <extracomment>link to the mx forum</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1098"/>
+        <location filename="../mainwindow.ui" line="1076"/>
         <source>FAQ</source>
+        <extracomment>frequently asked questions</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1133"/>
+        <location filename="../mainwindow.ui" line="1111"/>
         <source>Facebook</source>
+        <extracomment>Facebook the social media platform</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1165"/>
+        <location filename="../mainwindow.ui" line="1143"/>
         <source>Users Manual</source>
+        <extracomment>the mx user manual</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1197"/>
+        <location filename="../mainwindow.ui" line="1175"/>
         <source>Wiki</source>
+        <extracomment>link to the mx wiki</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1229"/>
+        <location filename="../mainwindow.ui" line="1207"/>
         <source>Videos</source>
+        <extracomment>link to videos page of mx website</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1255"/>
+        <location filename="../mainwindow.ui" line="1233"/>
         <source>Reddit</source>
+        <extracomment>link to the mx sub reddit</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1278"/>
+        <location filename="../mainwindow.ui" line="1256"/>
         <source>Below are some available resources to get help</source>
+        <extracomment>generic statement about resources offered</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>

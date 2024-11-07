@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MX Welcome</string>
+   <string notr="true"/>
   </property>
   <property name="sizeGripEnabled">
    <bool>false</bool>
@@ -43,115 +43,6 @@
      <property name="bottomMargin">
       <number>9</number>
      </property>
-     <item row="0" column="5">
-      <spacer name="horizontalSpacer2">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Expanding</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>100</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item row="0" column="9">
-      <widget class="QPushButton" name="buttonCancel">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="focusPolicy">
-        <enum>Qt::NoFocus</enum>
-       </property>
-       <property name="toolTip">
-        <string>Quit application</string>
-       </property>
-       <property name="text">
-        <string>Close</string>
-       </property>
-       <property name="icon">
-        <iconset theme="window-close">
-         <normaloff>.</normaloff>.</iconset>
-       </property>
-       <property name="shortcut">
-        <string>Alt+N</string>
-       </property>
-       <property name="autoDefault">
-        <bool>true</bool>
-       </property>
-       <property name="default">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="3">
-      <widget class="QLabel" name="labelMX">
-       <property name="maximumSize">
-        <size>
-         <width>32</width>
-         <height>32</height>
-        </size>
-       </property>
-       <property name="midLineWidth">
-        <number>0</number>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap>:/icons/logo.png</pixmap>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="7">
-      <widget class="QPushButton" name="buttonNext">
-       <property name="text">
-        <string>Next</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="0">
-      <widget class="QPushButton" name="buttonAbout">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="focusPolicy">
-        <enum>Qt::NoFocus</enum>
-       </property>
-       <property name="toolTip">
-        <string>About this application</string>
-       </property>
-       <property name="text">
-        <string>About...</string>
-       </property>
-       <property name="icon">
-        <iconset theme="help-about">
-         <normaloff>.</normaloff>.</iconset>
-       </property>
-       <property name="shortcut">
-        <string>Alt+B</string>
-       </property>
-       <property name="autoDefault">
-        <bool>true</bool>
-       </property>
-       <property name="default">
-        <bool>false</bool>
-       </property>
-      </widget>
-     </item>
      <item row="0" column="1">
       <spacer name="horizontalSpacer1">
        <property name="orientation">
@@ -168,10 +59,97 @@
        </property>
       </spacer>
      </item>
-     <item row="0" column="6">
+     <item row="0" column="5">
       <widget class="QPushButton" name="buttonPrevious">
        <property name="text">
-        <string>Previous</string>
+        <string extracomment="as in go back a step">Previous</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <spacer name="horizontalSpacer2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Expanding</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>100</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="buttonAbout">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="toolTip">
+        <string>About this application</string>
+       </property>
+       <property name="text">
+        <string extracomment="bring up the About... dialog">About...</string>
+       </property>
+       <property name="icon">
+        <iconset theme="help-about">
+         <normaloff>.</normaloff>.</iconset>
+       </property>
+       <property name="shortcut">
+        <string>Alt+B</string>
+       </property>
+       <property name="autoDefault">
+        <bool>true</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="8">
+      <widget class="QPushButton" name="buttonCancel">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="toolTip">
+        <string>Quit application</string>
+       </property>
+       <property name="text">
+        <string extracomment="cancel and don't do anything else">Close</string>
+       </property>
+       <property name="icon">
+        <iconset theme="window-close">
+         <normaloff>.</normaloff>.</iconset>
+       </property>
+       <property name="shortcut">
+        <string>Alt+N</string>
+       </property>
+       <property name="autoDefault">
+        <bool>true</bool>
+       </property>
+       <property name="default">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="6">
+      <widget class="QPushButton" name="buttonNext">
+       <property name="text">
+        <string extracomment="as in go forward a step">Next</string>
        </property>
       </widget>
      </item>
@@ -203,7 +181,7 @@
         <enum>QTabWidget::North</enum>
        </property>
        <property name="currentIndex">
-        <number>19</number>
+        <number>8</number>
        </property>
        <property name="usesScrollButtons">
         <bool>true</bool>
@@ -218,7 +196,7 @@
            <item row="0" column="0">
             <widget class="QLabel" name="graphiclabel">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -251,7 +229,7 @@ We hope you find this tour useful!</string>
            <item row="0" column="0">
             <widget class="QLabel" name="graphicMXFBPanel">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -298,7 +276,7 @@ Even more options to customize your panel exist under Settings Manager &gt; Tint
            <item row="0" column="0">
             <widget class="QLabel" name="graphicMXFBappfinder">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -339,7 +317,7 @@ The search field is automatically focused when opening the menu, so you can just
            <item row="0" column="0">
             <widget class="QLabel" name="graphicKDEpanel">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -387,7 +365,7 @@ Panel orientation is easily changeable in MX Tools &gt; MX Tweak.
            <item row="1" column="0">
             <widget class="QLabel" name="graphicXfcePanel">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -446,7 +424,7 @@ Lets explore some of the key components of the panel from top to bottom:
            <item row="1" column="0">
             <widget class="QLabel" name="graphicKDEmenu">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -489,7 +467,7 @@ You can edit the Application Menu properties by Right-Clicking on it.
            <item row="1" column="0">
             <widget class="QLabel" name="graphicXfceMenu">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -532,7 +510,7 @@ You can edit the Whisker Menu properties by Right-Clicking on it.
            <item row="0" column="0">
             <widget class="QLabel" name="graphicXfceTaskbar">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -565,7 +543,7 @@ The Docklike Taskbar (3) Properties can also be accessed from the Panel Tab of M
            <item row="1" column="0">
             <widget class="QLabel" name="graphicMXFBAppDock">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -600,7 +578,7 @@ Another dock option is available using tint2 (the software behind the panel), wh
            <item row="0" column="0">
             <widget class="QLabel" name="graphicConky">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -637,7 +615,7 @@ MX Linux comes with three tools for Conky:
            <item row="0" column="0">
             <widget class="QLabel" name="graphicMXTools">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -667,7 +645,7 @@ Lets explore some MX Tools to help you setup and use your computer.
            <item row="0" column="0">
             <widget class="QLabel" name="graphicMXWelcome">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -697,7 +675,7 @@ You can use the 'Show this dialog at start up' checkbox (as shown above) if you 
            <item row="0" column="0">
             <widget class="QLabel" name="graphicMXFBSettings">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -725,7 +703,7 @@ MXFB Settings Manager includes many applications have been developed specificall
            <item row="0" column="0">
             <widget class="QLabel" name="graphicMXTweak">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -758,7 +736,7 @@ Note: Some &quot;tweaks&quot; may not always appear, as they are desktop environ
            <item row="0" column="0">
             <widget class="QLabel" name="graphicXFCETweak">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -794,7 +772,7 @@ Note: Some &quot;tweaks&quot; may not always appear, as they are desktop environ
            <item row="0" column="0">
             <widget class="QLabel" name="graphicKDETweak">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -826,7 +804,7 @@ Note: Some &quot;tweaks&quot; may not always appear, as they are desktop environ
            <item row="0" column="0">
             <widget class="QLabel" name="graphicInstallApps">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -862,7 +840,7 @@ And the Console Output tab can help you troubleshoot installation or removal iss
            <item row="0" column="0">
             <widget class="QLabel" name="graphicDiscover">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -892,7 +870,7 @@ Discover may be considered more user friendly for new users but it is not config
            <item row="0" column="0">
             <widget class="QLabel" name="graphicUpdate">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -925,7 +903,7 @@ Right-Clicking the icon brings up a menu with many options, such as:
            <item row="0" column="0">
             <widget class="QLabel" name="graphicKDEUpdater">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -994,7 +972,7 @@ Two types of Snapshot ISO files can be created:
            <item row="0" column="0">
             <widget class="QLabel" name="graphicTimeshift">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -1028,7 +1006,7 @@ ATTENTION!
            <item row="0" column="0">
             <widget class="QLabel" name="graphicSystemInfo">
              <property name="text">
-              <string>TextLabel</string>
+              <string notr="true">TextLabel</string>
              </property>
             </widget>
            </item>
@@ -1069,7 +1047,7 @@ QSI automatically filters potentially sensitive information such as personal ide
               <enum>Qt::NoFocus</enum>
              </property>
              <property name="text">
-              <string>Forums</string>
+              <string extracomment="link to the mx forum">Forums</string>
              </property>
              <property name="icon">
               <iconset>
@@ -1095,7 +1073,7 @@ QSI automatically filters potentially sensitive information such as personal ide
               <enum>Qt::NoFocus</enum>
              </property>
              <property name="text">
-              <string>FAQ</string>
+              <string extracomment="frequently asked questions">FAQ</string>
              </property>
              <property name="iconSize">
               <size>
@@ -1130,7 +1108,7 @@ QSI automatically filters potentially sensitive information such as personal ide
               <enum>Qt::NoFocus</enum>
              </property>
              <property name="text">
-              <string>Facebook</string>
+              <string extracomment="Facebook the social media platform">Facebook</string>
              </property>
              <property name="icon">
               <iconset>
@@ -1162,7 +1140,7 @@ QSI automatically filters potentially sensitive information such as personal ide
               <enum>Qt::NoFocus</enum>
              </property>
              <property name="text">
-              <string>Users Manual</string>
+              <string extracomment="the mx user manual">Users Manual</string>
              </property>
              <property name="icon">
               <iconset>
@@ -1194,7 +1172,7 @@ QSI automatically filters potentially sensitive information such as personal ide
               <enum>Qt::NoFocus</enum>
              </property>
              <property name="text">
-              <string>Wiki</string>
+              <string extracomment="link to the mx wiki">Wiki</string>
              </property>
              <property name="icon">
               <iconset>
@@ -1226,7 +1204,7 @@ QSI automatically filters potentially sensitive information such as personal ide
               <enum>Qt::NoFocus</enum>
              </property>
              <property name="text">
-              <string>Videos</string>
+              <string extracomment="link to videos page of mx website">Videos</string>
              </property>
              <property name="icon">
               <iconset>
@@ -1252,7 +1230,7 @@ QSI automatically filters potentially sensitive information such as personal ide
               <enum>Qt::NoFocus</enum>
              </property>
              <property name="text">
-              <string>Reddit</string>
+              <string extracomment="link to the mx sub reddit">Reddit</string>
              </property>
              <property name="icon">
               <iconset>
@@ -1275,7 +1253,7 @@ QSI automatically filters potentially sensitive information such as personal ide
            <item row="0" column="0" colspan="2" alignment="Qt::AlignHCenter">
             <widget class="QLabel" name="texHelp">
              <property name="text">
-              <string>Below are some available resources to get help</string>
+              <string extracomment="generic statement about resources offered">Below are some available resources to get help</string>
              </property>
             </widget>
            </item>

@@ -48,7 +48,7 @@ FORMS    += \
     mainwindow.ui
 
 TRANSLATIONS += \
-    translations/mx-tour.ts
+    translations/mx-tour_en.ts
 
 RESOURCES += \
     images.qrc
