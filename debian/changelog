@@ -1,3 +1,10 @@
+mx-tour (24.11.03mx24) mx; urgency=medium
+
+  * add accelerator keys
+  * scroll tabs with left and right arrows
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 07 Nov 2024 17:33:18 -0500
+
 mx-tour (24.11.02mx23) mx; urgency=medium
 
   * release Qt version
