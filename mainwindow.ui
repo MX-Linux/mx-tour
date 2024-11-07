@@ -61,6 +61,9 @@
      </item>
      <item row="0" column="5">
       <widget class="QPushButton" name="buttonPrevious">
+       <property name="focusPolicy">
+        <enum>Qt::ClickFocus</enum>
+       </property>
        <property name="text">
         <string extracomment="as in go back a step">&amp;Previous</string>
        </property>
@@ -126,7 +129,7 @@
         </sizepolicy>
        </property>
        <property name="focusPolicy">
-        <enum>Qt::NoFocus</enum>
+        <enum>Qt::TabFocus</enum>
        </property>
        <property name="toolTip">
         <string>Quit application</string>
@@ -145,17 +148,23 @@
         <bool>true</bool>
        </property>
        <property name="default">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
       </widget>
      </item>
      <item row="0" column="6">
       <widget class="QPushButton" name="buttonNext">
+       <property name="focusPolicy">
+        <enum>Qt::ClickFocus</enum>
+       </property>
        <property name="text">
         <string extracomment="as in go forward a step">&amp;Next</string>
        </property>
        <property name="shortcut">
         <string>Alt+N</string>
+       </property>
+       <property name="default">
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -187,7 +196,7 @@
         <enum>QTabWidget::North</enum>
        </property>
        <property name="currentIndex">
-        <number>6</number>
+        <number>20</number>
        </property>
        <property name="usesScrollButtons">
         <bool>true</bool>
@@ -208,6 +217,9 @@
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textIntro">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>Using a new Operating System for the first time can seem challenging and scary.
 
@@ -239,6 +251,9 @@ We hope you find this tour useful!</string>
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textMXFBPanel">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>Lets explore some of the key components of the Tint2 panel at the bottom of the screen.
 
@@ -286,6 +301,9 @@ Even more options to customize your panel exist under Settings Manager &gt; Tint
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textMXFBappfinder">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>There are three very different application finders in MXFB, providing the user with choice of which to retain and use.
 
@@ -327,6 +345,9 @@ The search field is automatically focused when opening the menu, so you can just
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textKDEpanel">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>The default KDE panel sits at the bottom on the screen and includes from left to right:
 
@@ -375,6 +396,9 @@ Panel orientation is easily changeable in MX Tools &gt; MX Tweak.
            </item>
            <item row="1" column="1">
             <widget class="QPlainTextEdit" name="textXfcePanel">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>
 You have probably noticed that the default desktop of MX Linux has a single vertical panel on the left side of the screen.  
@@ -434,6 +458,9 @@ Lets explore some of the key components of the panel from top to bottom:
            </item>
            <item row="1" column="1">
             <widget class="QPlainTextEdit" name="textKDEmenu">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>The Application Menu is a easy to use and flexible main menu.
 
@@ -480,6 +507,9 @@ You can edit the Application Menu properties by Right-Clicking on it.
              <property name="enabled">
               <bool>true</bool>
              </property>
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>
 The Whisker Menu (Applications Menu) is a easy to use and flexible main menu.
@@ -523,6 +553,9 @@ You can edit the Whisker Menu properties by Right-Clicking on it.
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textXfceTaskbar">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>Docklike Taskbar is a lightweight, modern, and minimalist application taskbar that sits in the panel below the clock.  It starts with Firefox browser and Thunar File Manager pinned on it.
 
@@ -556,6 +589,9 @@ The Docklike Taskbar (3) Properties can also be accessed from the Panel Tab of M
            </item>
            <item row="1" column="1">
             <widget class="QPlainTextEdit" name="textMXFBAppDock">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>The Quick Launch Application Dock sits on the left side of the screen and by default provides easy access to a few commonly used applications.
 
@@ -591,6 +627,9 @@ Another dock option is available using tint2 (the software behind the panel), wh
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textConky">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>You may have wondered about the Clock in the upper right corner of your screen, it is a Conky.
 
@@ -628,6 +667,9 @@ MX Linux comes with three tools for Conky:
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textMXTools">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>Many applications have been developed specifically for MX Linux, adapted or brought over from antiX Linux, or adapted from outside sources to save you effort with important tasks often involving unintuitive steps.
 
@@ -658,6 +700,9 @@ Lets explore some MX Tools to help you setup and use your computer.
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textMXWelcome">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>When you booted your system for the first time, you should have noticed a Welcome screen that appeared in the center of the screen that offers quick orientation and help links for new and veteran users.
 
@@ -688,6 +733,9 @@ You can use the 'Show this dialog at start up' checkbox (as shown above) if you 
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textMXFBSettings">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>MXFB Settings Manager is your one-stop shop for tools to save you effort with important tasks and customizations using settings often involving unintuitive steps.
 
@@ -716,6 +764,9 @@ MXFB Settings Manager includes many applications have been developed specificall
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textMXTweak">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>MX Tweak brings together many small customizations organized under different Tabs.
 
@@ -749,6 +800,9 @@ Note: Some &quot;tweaks&quot; may not always appear, as they are desktop environ
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textXFCETweak">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>MX Tweak brings together many small but often used customizations organized under different Tabs.
 
@@ -785,6 +839,9 @@ Note: Some &quot;tweaks&quot; may not always appear, as they are desktop environ
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textKDETweak">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>MX Tweak brings together some small but often used customizations organized under different Tabs.
 
@@ -817,6 +874,9 @@ Note: Some &quot;tweaks&quot; may not always appear, as they are desktop environ
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textInstallApps">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>MX Package Installer, often referred to simply as MXPI, allows you to search for, install, or remove packages and applications quickly, safely, and easily.
 
@@ -853,6 +913,9 @@ And the Console Output tab can help you troubleshoot installation or removal iss
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textDiscover">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>Discover is also available for use to search for, install, or remove packages and applications quickly, safely, and easily.
 
@@ -883,6 +946,9 @@ Discover may be considered more user friendly for new users but it is not config
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textUpdate">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>MX Updater sits in the Notification Area of the panel.
 
@@ -916,6 +982,9 @@ Right-Clicking the icon brings up a menu with many options, such as:
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textUpdate_2">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>Updates in MX KDE are handled by the Discover application.
 
@@ -953,6 +1022,9 @@ Right-Clicking the Discover icon allows you to:
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textSnapshot">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>MX Snapshot allows you to create a bootable ISO file of your currently running MX Linux installation.
 
@@ -985,6 +1057,9 @@ Two types of Snapshot ISO files can be created:
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textTimeshift">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>Timeshift is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system and settings at scheduled intervals. These snapshots can be restored at a later date to undo all changes to the system.
 
@@ -1019,6 +1094,9 @@ ATTENTION!
            </item>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textSystemInfo">
+             <property name="focusPolicy">
+              <enum>Qt::NoFocus</enum>
+             </property>
              <property name="plainText">
               <string>Quick System Info, also known as QSI, is a great and easy way to get a lot of information about your computer hardware and MX Linux installation.
 

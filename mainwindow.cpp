@@ -42,6 +42,7 @@ MainWindow::MainWindow(const QCommandLineParser& arg_parser, QWidget* parent)
     ui->setupUi(this);
     setWindowFlags(Qt::Window); // For the close, min and max buttons
     connect(ui->buttonCancel, &QPushButton::pressed, this, &MainWindow::close);
+
     setup();
     ui->tabWidget->setCurrentIndex(0);
 
@@ -319,4 +320,5 @@ void MainWindow::on_buttonReddit_clicked()
 {
     system("xdg-open https://www.reddit.com/r/MXLinux/");
 }
+
 
