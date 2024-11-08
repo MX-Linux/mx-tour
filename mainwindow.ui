@@ -62,7 +62,7 @@
      <item row="0" column="5">
       <widget class="QPushButton" name="buttonPrevious">
        <property name="focusPolicy">
-        <enum>Qt::ClickFocus</enum>
+        <enum>Qt::TabFocus</enum>
        </property>
        <property name="text">
         <string extracomment="as in go back a step">&amp;Previous</string>
