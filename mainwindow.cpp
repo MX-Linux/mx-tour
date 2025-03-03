@@ -281,44 +281,44 @@ void MainWindow::kdeTour() {
 
 void MainWindow::on_buttonFAQ_clicked()
 {
-    system("mx-faq");
+    system("mx-faq &");
 }
 
 
 void MainWindow::on_buttonManual_clicked()
 {
-    system("mx-manual");
+    system("mx-manual &");
 }
 
 
 void MainWindow::on_buttonWiki_clicked()
 {
-    system("xdg-open https://mxlinux.org/wiki/");
+    system("xdg-open https://mxlinux.org/wiki/ &");
 }
 
 
 void MainWindow::on_buttonVideo_clicked()
 {
-    system("xdg-open http://www.mxlinux.org/videos/");
+    system("xdg-open http://www.mxlinux.org/videos/ &");
 }
 
 
 void MainWindow::on_buttonForum_clicked()
 {
-    system("xdg-open https://forum.mxlinux.org/");
+    system("xdg-open https://forum.mxlinux.org/ &");
 }
 
 
 
 void MainWindow::on_buttonFacebook_clicked()
 {
-    system("xdg-open https://www.facebook.com/groups/665300826967101/");
+    system("xdg-open https://www.facebook.com/groups/665300826967101/ &");
 }
 
 
 void MainWindow::on_buttonReddit_clicked()
 {
-    system("xdg-open https://www.reddit.com/r/MXLinux/");
+    system("xdg-open https://www.reddit.com/r/MXLinux/ &");
 }
 
 
