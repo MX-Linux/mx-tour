@@ -1,3 +1,9 @@
+mx-tour (25.03.01mx23) mx; urgency=medium
+
+  * spin off help links into own processes
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Mon, 03 Mar 2025 18:04:02 -0500
+
 mx-tour (24.11.03mx24) mx; urgency=medium
 
   * add accelerator keys
