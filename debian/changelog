@@ -1,3 +1,9 @@
+mx-tour (25.04.01mx25) mx; urgency=medium
+
+  * qt6
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Mon, 21 Apr 2025 20:41:02 -0400
+
 mx-tour (25.03.01mx23) mx; urgency=medium
 
   * spin off help links into own processes
