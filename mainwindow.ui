@@ -46,10 +46,10 @@
      <item row="0" column="1">
       <spacer name="horizontalSpacer1">
        <property name="orientation">
-        <enum>Qt::Horizontal</enum>
+        <enum>Qt::Orientation::Horizontal</enum>
        </property>
        <property name="sizeType">
-        <enum>QSizePolicy::Expanding</enum>
+        <enum>QSizePolicy::Policy::Expanding</enum>
        </property>
        <property name="sizeHint" stdset="0">
         <size>
@@ -62,7 +62,7 @@
      <item row="0" column="5">
       <widget class="QPushButton" name="buttonPrevious">
        <property name="focusPolicy">
-        <enum>Qt::TabFocus</enum>
+        <enum>Qt::FocusPolicy::TabFocus</enum>
        </property>
        <property name="text">
         <string extracomment="as in go back a step">&amp;Previous</string>
@@ -75,10 +75,10 @@
      <item row="0" column="4">
       <spacer name="horizontalSpacer2">
        <property name="orientation">
-        <enum>Qt::Horizontal</enum>
+        <enum>Qt::Orientation::Horizontal</enum>
        </property>
        <property name="sizeType">
-        <enum>QSizePolicy::Expanding</enum>
+        <enum>QSizePolicy::Policy::Expanding</enum>
        </property>
        <property name="sizeHint" stdset="0">
         <size>
@@ -97,7 +97,7 @@
         </sizepolicy>
        </property>
        <property name="focusPolicy">
-        <enum>Qt::NoFocus</enum>
+        <enum>Qt::FocusPolicy::NoFocus</enum>
        </property>
        <property name="toolTip">
         <string>About this application</string>
@@ -106,8 +106,7 @@
         <string extracomment="bring up the About... dialog">A&amp;bout...</string>
        </property>
        <property name="icon">
-        <iconset theme="help-about">
-         <normaloff>.</normaloff>.</iconset>
+        <iconset theme="help-about"/>
        </property>
        <property name="shortcut">
         <string>Alt+B</string>
@@ -129,7 +128,7 @@
         </sizepolicy>
        </property>
        <property name="focusPolicy">
-        <enum>Qt::TabFocus</enum>
+        <enum>Qt::FocusPolicy::TabFocus</enum>
        </property>
        <property name="toolTip">
         <string>Quit application</string>
@@ -138,8 +137,7 @@
         <string extracomment="cancel and don't do anything else">&amp;Close</string>
        </property>
        <property name="icon">
-        <iconset theme="window-close">
-         <normaloff>.</normaloff>.</iconset>
+        <iconset theme="window-close"/>
        </property>
        <property name="shortcut">
         <string>Alt+C</string>
@@ -155,7 +153,7 @@
      <item row="0" column="6">
       <widget class="QPushButton" name="buttonNext">
        <property name="focusPolicy">
-        <enum>Qt::ClickFocus</enum>
+        <enum>Qt::FocusPolicy::ClickFocus</enum>
        </property>
        <property name="text">
         <string extracomment="as in go forward a step">&amp;Next</string>
@@ -187,16 +185,16 @@
         </size>
        </property>
        <property name="layoutDirection">
-        <enum>Qt::LeftToRight</enum>
+        <enum>Qt::LayoutDirection::LeftToRight</enum>
        </property>
        <property name="styleSheet">
         <string notr="true"/>
        </property>
        <property name="tabPosition">
-        <enum>QTabWidget::North</enum>
+        <enum>QTabWidget::TabPosition::North</enum>
        </property>
        <property name="currentIndex">
-        <number>20</number>
+        <number>9</number>
        </property>
        <property name="usesScrollButtons">
         <bool>true</bool>
@@ -218,7 +216,7 @@
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textIntro">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>Using a new Operating System for the first time can seem challenging and scary.
@@ -252,7 +250,7 @@ We hope you find this tour useful!</string>
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textMXFBPanel">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>Lets explore some of the key components of the Tint2 panel at the bottom of the screen.
@@ -302,7 +300,7 @@ Even more options to customize your panel exist under Settings Manager &gt; Tint
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textMXFBappfinder">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>There are three very different application finders in MXFB, providing the user with choice of which to retain and use.
@@ -346,7 +344,7 @@ The search field is automatically focused when opening the menu, so you can just
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textKDEpanel">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>The default KDE panel sits at the bottom on the screen and includes from left to right:
@@ -397,7 +395,7 @@ Panel orientation is easily changeable in MX Tools &gt; MX Tweak.
            <item row="1" column="1">
             <widget class="QPlainTextEdit" name="textXfcePanel">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>
@@ -459,7 +457,7 @@ Lets explore some of the key components of the panel from top to bottom:
            <item row="1" column="1">
             <widget class="QPlainTextEdit" name="textKDEmenu">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>The Application Menu is a easy to use and flexible main menu.
@@ -508,7 +506,7 @@ You can edit the Application Menu properties by Right-Clicking on it.
               <bool>true</bool>
              </property>
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>
@@ -554,7 +552,7 @@ You can edit the Whisker Menu properties by Right-Clicking on it.
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textXfceTaskbar">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>Docklike Taskbar is a lightweight, modern, and minimalist application taskbar that sits in the panel below the clock.  It starts with Firefox browser and Thunar File Manager pinned on it.
@@ -590,7 +588,7 @@ The Docklike Taskbar (3) Properties can also be accessed from the Panel Tab of M
            <item row="1" column="1">
             <widget class="QPlainTextEdit" name="textMXFBAppDock">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>The Quick Launch Application Dock sits on the left side of the screen and by default provides easy access to a few commonly used applications.
@@ -628,7 +626,7 @@ Another dock option is available using tint2 (the software behind the panel), wh
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textConky">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>You may have wondered about the Clock in the upper right corner of your screen, it is a Conky.
@@ -639,10 +637,9 @@ It can display the status of the CPU, memory, disk storage, temperatures, networ
 
 MX Linux comes with many different Conkies to choose from or edit.
 
-MX Linux comes with three tools for Conky:
+MX Linux comes with two tools for Conky:
 • Conky Toggle - to easily turn Conky off or on
-• MX Conky - enables detailed changes to the actively running Conky
-• Conky Manager - utility for managing and viewing Conky configuration files
+• MX Conky - utility for managing, editing and viewing Conky configuration files
 </string>
              </property>
             </widget>
@@ -668,7 +665,7 @@ MX Linux comes with three tools for Conky:
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textMXTools">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>Many applications have been developed specifically for MX Linux, adapted or brought over from antiX Linux, or adapted from outside sources to save you effort with important tasks often involving unintuitive steps.
@@ -701,7 +698,7 @@ Lets explore some MX Tools to help you setup and use your computer.
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textMXWelcome">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>When you booted your system for the first time, you should have noticed a Welcome screen that appeared in the center of the screen that offers quick orientation and help links for new and veteran users.
@@ -734,7 +731,7 @@ You can use the 'Show this dialog at start up' checkbox (as shown above) if you 
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textMXFBSettings">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>MXFB Settings Manager is your one-stop shop for tools to save you effort with important tasks and customizations using settings often involving unintuitive steps.
@@ -765,7 +762,7 @@ MXFB Settings Manager includes many applications have been developed specificall
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textMXTweak">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>MX Tweak brings together many small customizations organized under different Tabs.
@@ -801,7 +798,7 @@ Note: Some &quot;tweaks&quot; may not always appear, as they are desktop environ
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textXFCETweak">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>MX Tweak brings together many small but often used customizations organized under different Tabs.
@@ -840,7 +837,7 @@ Note: Some &quot;tweaks&quot; may not always appear, as they are desktop environ
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textKDETweak">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>MX Tweak brings together some small but often used customizations organized under different Tabs.
@@ -875,7 +872,7 @@ Note: Some &quot;tweaks&quot; may not always appear, as they are desktop environ
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textInstallApps">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>MX Package Installer, often referred to simply as MXPI, allows you to search for, install, or remove packages and applications quickly, safely, and easily.
@@ -914,7 +911,7 @@ And the Console Output tab can help you troubleshoot installation or removal iss
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textDiscover">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>Discover is also available for use to search for, install, or remove packages and applications quickly, safely, and easily.
@@ -947,7 +944,7 @@ Discover may be considered more user friendly for new users but it is not config
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textUpdate">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>MX Updater sits in the Notification Area of the panel.
@@ -983,7 +980,7 @@ Right-Clicking the icon brings up a menu with many options, such as:
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textUpdate_2">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>Updates in MX KDE are handled by the Discover application.
@@ -1023,7 +1020,7 @@ Right-Clicking the Discover icon allows you to:
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textSnapshot">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>MX Snapshot allows you to create a bootable ISO file of your currently running MX Linux installation.
@@ -1058,7 +1055,7 @@ Two types of Snapshot ISO files can be created:
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textTimeshift">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>Timeshift is an application that provides functionality similar to the System Restore feature in Windows and the Time Machine tool in Mac OS. Timeshift protects your system by taking incremental snapshots of the file system and settings at scheduled intervals. These snapshots can be restored at a later date to undo all changes to the system.
@@ -1095,7 +1092,7 @@ ATTENTION!
            <item row="1" column="0">
             <widget class="QPlainTextEdit" name="textSystemInfo">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
               <string>Quick System Info, also known as QSI, is a great and easy way to get a lot of information about your computer hardware and MX Linux installation.
@@ -1123,7 +1120,7 @@ QSI automatically filters potentially sensitive information such as personal ide
            <item row="7" column="0">
             <spacer name="verticalSpacer">
              <property name="orientation">
-              <enum>Qt::Vertical</enum>
+              <enum>Qt::Orientation::Vertical</enum>
              </property>
              <property name="sizeHint" stdset="0">
               <size>
@@ -1142,7 +1139,7 @@ QSI automatically filters potentially sensitive information such as personal ide
               </sizepolicy>
              </property>
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="text">
               <string extracomment="link to the mx forum">Forums</string>
@@ -1165,7 +1162,7 @@ QSI automatically filters potentially sensitive information such as personal ide
              </property>
             </widget>
            </item>
-           <item row="0" column="0" colspan="2" alignment="Qt::AlignHCenter">
+           <item row="0" column="0" colspan="2" alignment="Qt::AlignmentFlag::AlignHCenter">
             <widget class="QLabel" name="texHelp">
              <property name="text">
               <string extracomment="generic statement about resources offered">Below are some available resources to get help</string>
@@ -1181,7 +1178,7 @@ QSI automatically filters potentially sensitive information such as personal ide
               </sizepolicy>
              </property>
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="text">
               <string extracomment="the mx user manual">Users Manual</string>
@@ -1207,7 +1204,7 @@ QSI automatically filters potentially sensitive information such as personal ide
            <item row="3" column="1">
             <widget class="FlatButton" name="buttonReddit">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="text">
               <string extracomment="link to the mx sub reddit">Reddit</string>
@@ -1239,7 +1236,7 @@ QSI automatically filters potentially sensitive information such as personal ide
               </sizepolicy>
              </property>
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="text">
               <string extracomment="link to videos page of mx website">Videos</string>
@@ -1265,7 +1262,7 @@ QSI automatically filters potentially sensitive information such as personal ide
            <item row="1" column="0">
             <widget class="FlatButton" name="buttonFAQ">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="text">
               <string extracomment="frequently asked questions">FAQ</string>
@@ -1293,7 +1290,7 @@ QSI automatically filters potentially sensitive information such as personal ide
               </sizepolicy>
              </property>
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="text">
               <string extracomment="link to the mx wiki">Wiki</string>
@@ -1319,7 +1316,7 @@ QSI automatically filters potentially sensitive information such as personal ide
            <item row="2" column="1">
             <widget class="FlatButton" name="buttonFacebook">
              <property name="focusPolicy">
-              <enum>Qt::NoFocus</enum>
+              <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="text">
               <string extracomment="Facebook the social media platform">Facebook</string>
