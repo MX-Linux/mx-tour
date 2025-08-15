@@ -194,7 +194,7 @@
         <enum>QTabWidget::TabPosition::North</enum>
        </property>
        <property name="currentIndex">
-        <number>9</number>
+        <number>12</number>
        </property>
        <property name="usesScrollButtons">
         <bool>true</bool>
@@ -253,7 +253,7 @@ We hope you find this tour useful!</string>
               <enum>Qt::FocusPolicy::NoFocus</enum>
              </property>
              <property name="plainText">
-              <string>Lets explore some of the key components of the Tint2 panel at the bottom of the screen.
+              <string>Let's explore some of the key components of the Tint2 panel at the bottom of the screen.
 
 (1) Appfinder (Application Menu)
 
@@ -275,6 +275,8 @@ We hope you find this tour useful!</string>
     • Lock • Log Out • Restart • Shutdown • Suspend
 
 Even more options to customize your panel exist under Settings Manager &gt; Tint2 Manager, where many other templates are available.
+
+Note that the traditional Fluxbox toolbar is also available: consult the MXFB User Manual for details.
 </string>
              </property>
             </widget>
@@ -315,7 +317,7 @@ The search field is automatically focused when opening the menu, so you can just
 
 (Appfinder is built using &quot;rofi,&quot; a very flexible and fast app with many applications that can be launched by pressing the logo or super key. Its settings are available in a separate app &quot;Rofi Manager&quot; that includes a large selection of possible templates.)
 
-2. A second applications menu (the &quot;rootMenu&quot;) is revealed by a right-click on the desktop and is a legacy of the original Fluxbox. It is a static and very rapid menu of common applications that can easily be edited by the user. 
+2. A second applications menu (the &quot;rootMenu&quot;) is revealed by a right-click on the desktop and is a legacy of the original Fluxbox. It is a static and very rapid menu of common applications, settings and actions that can easily be edited by the user. 
 
 3. Included at the top of that rootMenu, finally, is a third application finder called &quot;All Apps.&quot; It is similar in structure and behavior to a typical Debian menu, and updates automatically. 
 
@@ -596,7 +598,8 @@ The Docklike Taskbar (3) Properties can also be accessed from the Panel Tab of M
 It consists of:
 (1) MX Tools
 (2) MX Fluxbox Settings Manager
-(3) MX Fluxbox User Manual
+(3) MX Fluxbox Videos
+(4) MX Fluxbox User Manual
  
 The default dock can easily be modified using MX Dockmaker; furthermore, it can be placed on auto-hide or cancelled completely using the root Menu &gt; Out of Sight.
 
@@ -672,7 +675,7 @@ MX Linux comes with two tools for Conky:
 
 The MX Tools dashboard (shown above), centralizes and organizes these tools for easy access and use.
 
-Lets explore some MX Tools to help you setup and use your computer.
+Let's explore some MX Tools to help you setup and use your computer.
 </string>
              </property>
             </widget>
@@ -736,7 +739,7 @@ You can use the 'Show this dialog at start up' checkbox (as shown above) if you 
              <property name="plainText">
               <string>MXFB Settings Manager is your one-stop shop for tools to save you effort with important tasks and customizations using settings often involving unintuitive steps.
 
-MXFB Settings Manager includes many applications have been developed specifically for MX Linux Fluxbox.
+MXFB Settings Manager includes many applications have been developed or adapted specifically for MX Linux Fluxbox.
 </string>
              </property>
             </widget>
