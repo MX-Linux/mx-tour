@@ -187,6 +187,22 @@ The Docklike Taskbar (3) Properties can also be accessed from the Panel Tab of M
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../mainwindow.ui" line="596"/>
+        <source>The Quick Launch Application Dock sits on the left side of the screen and by default provides easy access to a few commonly used applications.
+
+It consists of:
+(1) MX Tools
+(2) MX Fluxbox User Manual
+(3) MX Fluxbox Videos
+(4) MX Fluxbox Settings Manager
+ 
+The default dock can easily be modified using MX Dockmaker; furthermore, it can be placed on auto-hide or cancelled completely using the root Menu &gt; Out of Sight.
+
+Another dock option is available using tint2 (the software behind the panel), which makes much greater customization possible. Two tint2 dock configurations can be found using the root Menu &gt; Appearance &gt; Dock.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../mainwindow.ui" line="617"/>
         <source>Conky</source>
         <translation type="unfinished"></translation>
@@ -515,23 +531,6 @@ The search field is automatically focused when opening the menu, so you can just
 
 3. Included at the top of that rootMenu, finally, is a third application finder called &quot;All Apps.&quot; It is similar in structure and behavior to a typical Debian menu, and updates automatically. 
 
-</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="596"/>
-        <source>The Quick Launch Application Dock sits on the left side of the screen and by default provides easy access to a few commonly used applications.
-
-It consists of:
-(1) MX Tools
-(2) MX Fluxbox User Manual
-(3) MX Fluxbox Videos
-(4) MX Fluxbox Settings Manager
-
- 
-The default dock can easily be modified using MX Dockmaker; furthermore, it can be placed on auto-hide or cancelled completely using the root Menu &gt; Out of Sight.
-
-Another dock option is available using tint2 (the software behind the panel), which makes much greater customization possible. Two tint2 dock configurations can be found using the root Menu &gt; Appearance &gt; Dock.
 </source>
         <translation type="unfinished"></translation>
     </message>
