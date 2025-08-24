@@ -243,7 +243,7 @@ void MainWindow::xfceTour() {
     ui->graphicMXWelcome->setPixmap(QPixmap(":images/mx_welcome.png"));
     ui->graphicXFCETweak->setPixmap(QPixmap(":images/mx_tweak.png"));
     ui->graphicInstallApps->setPixmap(QPixmap(":images/mxpi.png"));
-    ui->graphicUpdate->setPixmap(QPixmap(":images/mxfb_updater.png"));
+    ui->graphicUpdate->setPixmap(QPixmap(":images/mx_updater.png"));
     ui->graphicSnapshot->setPixmap(QPixmap(":images/mx_snapshot.png"));
     ui->graphicSystemInfo->setPixmap(QPixmap(":images/qsi.png"));
     ui->graphicTimeshift->setPixmap(QPixmap(":images/timeshift.png"));
