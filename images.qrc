@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>images/app_finder.png</file>
         <file>images/conky.png</file>
         <file>images/discover.png</file>
         <file>images/docklike.png</file>
