@@ -50,7 +50,7 @@
 
 (3) Task Manager
     • Settings Manager
-    • Thunar File Manager
+    • File Manager
     • Firefox browser
 
 (4) System Tray
@@ -63,7 +63,7 @@
 
 (5) Digital Clock
 
-You can modify the panel by Right-Clicking on it and choosing &quot;Edit Panel&quot; or &quot;Add Widgets&quot;.
+You can modify the panel by Right-Clicking on it and choosing &quot;Enter Edit Mode&quot; or &quot;Add Widgets&quot;.
 Panel orientation is easily changeable in MX Tools &gt; MX Tweak.
 </source>
         <translation type="unfinished"></translation>
