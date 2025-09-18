@@ -1,9 +1,9 @@
 [main]
 host = https://www.transifex.com
 
-[o:anticapitalista:p:antix-development:r:mx-welcome]
-file_filter = ./mx-welcome_<lang>.ts
-source_file = mx-welcome_en.ts
+[o:anticapitalista:p:antix-development:r:mx-tour]
+file_filter = ./mx-tour<lang>.ts
+source_file = mx-tour.ts
 source_lang = en
 type = ts
 minimum_perc = 25
