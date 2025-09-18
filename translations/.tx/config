@@ -2,7 +2,7 @@
 host = https://www.transifex.com
 
 [o:anticapitalista:p:antix-development:r:mx-tour]
-file_filter = ./mx-tour<lang>.ts
+file_filter = ./mx-tour_<lang>.ts
 source_file = mx-tour.ts
 source_lang = en
 type = ts
