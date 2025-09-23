@@ -163,7 +163,7 @@ bool MainWindow::checkFluxbox() const
 
 bool MainWindow::checkPlasma() const
 {
-    QString test = runCmd(QStringLiteral("pgrep plasma"));
+    QString test = runCmd(QStringLiteral("pgrep plasmashell"));
     return (!test.isEmpty());
 }
 
