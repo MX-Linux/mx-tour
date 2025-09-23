@@ -141,27 +141,12 @@ void MainWindow::on_buttonAbout_clicked()
 void MainWindow::on_buttonNext_clicked()
 {
     ui->tabWidget->setCurrentIndex(ui->tabWidget->currentIndex() + 1);
-    int tabindex = ui->tabWidget->currentIndex();
-    int tabcount = ui->tabWidget->count();
-    ui->buttonPrevious->setEnabled(true);
-    if (tabindex == tabcount - 1){
-        ui->buttonNext->setDisabled(true);
-    } else {
-        ui->buttonNext->setEnabled(true);
-    }
 }
 
 
 void MainWindow::on_buttonPrevious_clicked()
 {
     ui->tabWidget->setCurrentIndex(ui->tabWidget->currentIndex() - 1);
-    int tabindex = ui->tabWidget->currentIndex();
-    ui->buttonNext->setEnabled(true);
-    if (tabindex == 1){
-        ui->buttonPrevious->setDisabled(true);
-    } else {
-        ui->buttonPrevious->setEnabled(true);
-    }
 }
 
 bool MainWindow::checkXFCE() const
@@ -337,4 +322,23 @@ void MainWindow::on_buttonReddit_clicked()
     system("xdg-open https://www.reddit.com/r/MXLinux/ &");
 }
 
+
+
+void MainWindow::on_tabWidget_currentChanged(int index)
+{
+    int tabindex = ui->tabWidget->currentIndex();
+    int tabcount = ui->tabWidget->count();
+    ui->buttonPrevious->setEnabled(true);
+    if (tabindex == tabcount - 1){
+        ui->buttonNext->setDisabled(true);
+    } else {
+        ui->buttonNext->setEnabled(true);
+    }
+
+    if (tabindex == 0){
+        ui->buttonPrevious->setDisabled(true);
+    } else {
+        ui->buttonPrevious->setEnabled(true);
+    }
+}
 

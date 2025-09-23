@@ -2,8 +2,9 @@ mx-tour (25.09.03mx25) mx; urgency=medium
 
   * check for plasmashell rather than just plasma
   * enable and disable previous and next buttons based on position
+  * update translations
 
- -- Dolphin Oracle <dolphinoracle@gmail.com>  Mon, 22 Sep 2025 22:12:52 -0400
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Mon, 22 Sep 2025 22:17:21 -0400
 
 mx-tour (25.09.02mx25) mx; urgency=medium
 

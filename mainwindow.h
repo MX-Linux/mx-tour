@@ -77,6 +77,8 @@ private slots:
 
     void on_buttonReddit_clicked();
 
+    void on_tabWidget_currentChanged(int index);
+
 private:
     Ui::MainWindow *ui;
     QProcess *proc {};
