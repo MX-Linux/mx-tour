@@ -24,7 +24,7 @@
     <message>
         <location filename="../mainwindow.ui" line="204"/>
         <source>Intro</source>
-        <translation type="unfinished"/>
+        <translation>Introduksjon</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="238"/>
@@ -302,7 +302,7 @@ And the Console Output tab can help you troubleshoot installation or removal iss
     <message>
         <location filename="../mainwindow.ui" line="902"/>
         <source>Discover</source>
-        <translation type="unfinished"/>
+        <translation>Oppdag</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="920"/>
@@ -318,7 +318,7 @@ Discover may be considered more user friendly for new users but it is not config
         <location filename="../mainwindow.ui" line="935"/>
         <location filename="../mainwindow.ui" line="971"/>
         <source>Updating</source>
-        <translation type="unfinished"/>
+        <translation>Oppdaterer</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="953"/>
@@ -394,7 +394,7 @@ ATTENTION!
     <message>
         <location filename="../mainwindow.ui" line="1083"/>
         <source>System Info</source>
-        <translation type="unfinished"/>
+        <translation>Systeminformasjon</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1101"/>
@@ -429,7 +429,7 @@ QSI automatically filters potentially sensitive information such as personal ide
         <location filename="../mainwindow.ui" line="1325"/>
         <source>Facebook</source>
         <extracomment>Facebook the social media platform</extracomment>
-        <translation type="unfinished"/>
+        <translation>Facebook</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1187"/>
@@ -441,12 +441,12 @@ QSI automatically filters potentially sensitive information such as personal ide
         <location filename="../mainwindow.ui" line="68"/>
         <source>&amp;Previous</source>
         <extracomment>as in go back a step</extracomment>
-        <translation type="unfinished"/>
+        <translation>&amp;Forrige</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="71"/>
         <source>Alt+P</source>
-        <translation type="unfinished"/>
+        <translation>Alt + P</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="106"/>
@@ -469,7 +469,7 @@ QSI automatically filters potentially sensitive information such as personal ide
         <location filename="../mainwindow.ui" line="159"/>
         <source>&amp;Next</source>
         <extracomment>as in go forward a step</extracomment>
-        <translation type="unfinished"/>
+        <translation>&amp;Neste</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="222"/>
@@ -582,7 +582,7 @@ MXFB Settings Manager includes many applications have been developed or adapted 
         <location filename="../mainwindow.ui" line="1213"/>
         <source>Reddit</source>
         <extracomment>link to the mx sub reddit</extracomment>
-        <translation type="unfinished"/>
+        <translation>Reddit</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1171"/>

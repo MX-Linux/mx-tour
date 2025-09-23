@@ -136,7 +136,7 @@ You can edit the Application Menu properties by Right-Clicking on it.
     <message>
         <location filename="../mainwindow.ui" line="493"/>
         <source>Menu</source>
-        <translation type="unfinished"/>
+        <translation>Menu</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="514"/>
@@ -164,7 +164,7 @@ You can edit the Whisker Menu properties by Right-Clicking on it.
     <message>
         <location filename="../mainwindow.ui" line="542"/>
         <source>Taskbar</source>
-        <translation type="unfinished"/>
+        <translation>Pasek zadań</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="560"/>
@@ -182,7 +182,7 @@ The Docklike Taskbar (3) Properties can also be accessed from the Panel Tab of M
     <message>
         <location filename="../mainwindow.ui" line="578"/>
         <source>App Dock</source>
-        <translation type="unfinished"/>
+        <translation>Dok z aplikacjami</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="596"/>
@@ -228,7 +228,7 @@ You can use the 'Show this dialog at start up' checkbox (as shown above) if you 
     <message>
         <location filename="../mainwindow.ui" line="722"/>
         <source>MX Fluxbox Settings</source>
-        <translation type="unfinished"/>
+        <translation>Ustawienia MX Fluxbox</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="753"/>
@@ -281,7 +281,7 @@ Note: Some &quot;tweaks&quot; may not always appear, as they are desktop environ
     <message>
         <location filename="../mainwindow.ui" line="863"/>
         <source>Install Apps</source>
-        <translation type="unfinished"/>
+        <translation>Zainstaluj Aplikacje</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="881"/>
@@ -302,7 +302,7 @@ And the Console Output tab can help you troubleshoot installation or removal iss
     <message>
         <location filename="../mainwindow.ui" line="902"/>
         <source>Discover</source>
-        <translation type="unfinished"/>
+        <translation>Odkrywca</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="920"/>
@@ -318,7 +318,7 @@ Discover may be considered more user friendly for new users but it is not config
         <location filename="../mainwindow.ui" line="935"/>
         <location filename="../mainwindow.ui" line="971"/>
         <source>Updating</source>
-        <translation type="unfinished"/>
+        <translation>Aktualizowanie</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="953"/>
@@ -394,7 +394,7 @@ ATTENTION!
     <message>
         <location filename="../mainwindow.ui" line="1083"/>
         <source>System Info</source>
-        <translation type="unfinished"/>
+        <translation>Informacje o systemie</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1101"/>
@@ -411,7 +411,7 @@ QSI automatically filters potentially sensitive information such as personal ide
     <message>
         <location filename="../mainwindow.ui" line="1118"/>
         <source>Getting Help</source>
-        <translation type="unfinished"/>
+        <translation>Uzyskiwanie Pomocy</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1148"/>
@@ -429,7 +429,7 @@ QSI automatically filters potentially sensitive information such as personal ide
         <location filename="../mainwindow.ui" line="1325"/>
         <source>Facebook</source>
         <extracomment>Facebook the social media platform</extracomment>
-        <translation type="unfinished"/>
+        <translation>Facebook</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1187"/>
@@ -441,12 +441,12 @@ QSI automatically filters potentially sensitive information such as personal ide
         <location filename="../mainwindow.ui" line="68"/>
         <source>&amp;Previous</source>
         <extracomment>as in go back a step</extracomment>
-        <translation type="unfinished"/>
+        <translation>&amp;Poprzedni</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="71"/>
         <source>Alt+P</source>
-        <translation type="unfinished"/>
+        <translation>Alt+P</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="106"/>
@@ -469,7 +469,7 @@ QSI automatically filters potentially sensitive information such as personal ide
         <location filename="../mainwindow.ui" line="159"/>
         <source>&amp;Next</source>
         <extracomment>as in go forward a step</extracomment>
-        <translation type="unfinished"/>
+        <translation>&amp;Następny</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="222"/>
@@ -480,7 +480,13 @@ MX Tour is designed to introduce and orient you to many of the features and grap
 Each of the topic areas have been separated into Tabs at the top of the dialog.
 
 We hope you find this tour useful!</source>
-        <translation type="unfinished"/>
+        <translation>Używanie nowego systemu operacyjnego po raz pierwszy może wydawać się trudne i przerażające.
+
+MX Tournée ma na celu wprowadzić Cię i zaznajomić z wieloma funkcjami i narzędziami graficznymi MX Linux.
+
+Każdy z obszarów tematu został podzielony na zakładki na górze okna dialogowego.
+
+Mamy nadzieję, że ta podróż okaże się przydatna!</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="256"/>
@@ -509,7 +515,31 @@ Even more options to customize your panel exist under Settings Manager &gt; Tint
 
 Note that the traditional Fluxbox toolbar is also available: consult the MXFB User Manual for details.
 </source>
-        <translation type="unfinished"/>
+        <translation>Przyjrzyjmy się najważniejszym komponentom znajdującego się na dole ekranu panelu Tint2.
+
+(1) Wyszukiwarka Aplikacji (Menu Aplikacji)
+
+(2) Menedżer ustawień
+(3) Menedżer plików Thunar
+(4) Przeglądarka internetowa
+
+(5) Obszar powiadomień, zawierający:
+    • Menedżer aktualizacji
+    • Menedżer sieci
+    • Menedżer dźwięku
+    • Menedżer schowka
+
+(6) Zegar (czas data)
+    • Lewe kliknięcie otwiera kalendarz, Escape (Esc) - zamyka
+    • Prawe kliknięcie ustawia budzik
+    
+(7) Wyłącznik który otwiera okno umożliwiające
+    • Zablokowanie ekranu • Wylogowanie • Restart • Wyłączenie • Wstrzymanie
+
+Więcej opcji umożliwiających konfigurację panelu znajdziesz pod: Menedżer ustawień &gt; Menedżer Tint2, gdzie dostępne jest wiele różnych szablonów.
+
+Zauważ, że dostępny jest także tradycyjny pasek narzędzi Fluxbox - szczegóły są omówione w podręczniku użytkownika MXFB.
+</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="308"/>
@@ -530,7 +560,23 @@ The search field is automatically focused when opening the menu, so you can just
 3. Included at the top of that rootMenu, finally, is a third application finder called &quot;All Apps.&quot; It is similar in structure and behavior to a typical Debian menu, and updates automatically. 
 
 </source>
-        <translation type="unfinished"/>
+        <translation>Dostępne są trzy zupełnie różne wyszukiwarki aplikacji w MXFB, co umożliwia użytkownikowi wybór, którą z nich chce zachować i używać.
+
+1. Menu Aplikacji  (&quot;Wyszukiwarka aplikacji Rofi&quot;) otwiera się przez kliknięcie lewego przycisku myszy na logo MX na panelu. Zawiera ono trzy obszary:
+
+(1) Pasek wyszukiwania na górze
+(2) Zakładki po lewej stronie, odpowiednio: Aplikacje, Kategorie i Pomoc 
+(3) Zawartość zakładki po prawej stronie
+
+Pole wyszukiwania jest wybrane automatycznie podczas otwierania menu, więc możesz po prostu wyszukiwać według nazwy aplikacji lub ogólnych słów, takich jak „przeglądarka”. Aby otworzyć aplikację, kliknij na wybór lub naciśnij Enter. Możesz edytować zachowanie i wygląd menu za pomocą polecenia w zakładce pomocy.
+
+(Wyszukiwarka aplikacji jest zbudowana przy użyciu „ROFI”, bardzo elastycznego i szybkiego programu umożliwiającego dostęp do wielu aplikacji po kliknięciu w ikonę logo lub naciśnięciu klawisza Super. Jego ustawienia są dostępne w osobnej aplikacji „Menedżer ROFI”, która zawiera duży wybór możliwych do zastosowania szablonów.)
+
+2. Drugie menu aplikacji („rootMenu”) uruchamia się przez kliknięcie prawym przyciskiem myszy na pulpicie i stanowi integralną część menedżera okien Fluxbox. Jest to statyczne i bardzo szybkie menu zawierające podstawowe aplikacje, ustawienia i czynności. Zawartość tego menu może być w prosty sposób edytowana przez użytkownika. 
+
+3. U góry wspomnianego rootMenu znajduje się wreszcie trzecia wyszukiwarka aplikacji o nazwie „Wszystkie aplikacje”. Ma podobną strukturę i zachowanie do typowego menu Debiana i aktualizuje się automatycznie. 
+
+</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="635"/>
@@ -546,7 +592,18 @@ MX Linux comes with two tools for Conky:
 • Conky Toggle - to easily turn Conky off or on
 • MX Conky - utility for managing, editing and viewing Conky configuration files
 </source>
-        <translation type="unfinished"/>
+        <translation>Zastanawiasz się pewnie, czym jest ten zegar w prawym górnym rogu Twojego ekranu. To jest Conky.
+
+Conky to lekki monitor systemu, który pozwala wyświetlać dowolne informacje na Twoim pulpicie, albo w formie tekstu, albo za pomocą prostych pasków postępu, czy też graficznych wykresów, z wykorzystaniem różnych czcionek i kolorów.
+
+Może wyświetlać status procesora, pamięci, interfejsów sieciowych, ilość miejsca na dysku, temperaturę podzespołów, poziom baterii, skrzynki odbiorcze e-mail, wiele popularnych odtwarzaczy muzyki, aktualną pogodę, kanały informacyjne i wiele więcej.
+
+MX Linux umożliwia Ci wybór spośród wielu gotowych ustawień Conky oraz ich dowolne edytowanie.
+
+MX Linux posiada dwa własne narzędzia dla Conky:
+• Przełącznik Conky - aby w prosty sposób włączać i wyłączać Conky
+• MX Conky - narzędzie umożliwiające zarządzanie, edytowanie i pogląd plików konfiguracyjnych Conky 
+</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="674"/>
@@ -556,7 +613,12 @@ The MX Tools dashboard (shown above), centralizes and organizes these tools for 
 
 Let's explore some MX Tools to help you setup and use your computer.
 </source>
-        <translation type="unfinished"/>
+        <translation>Wiele aplikacji zostało opracowanych specjalnie dla MX Linux, dostosowanych albo przeniesionych z Antix Linux, lub z zewnętrznych źródeł, aby ułatwić wykonywanie ważnych zadań i  dostosowywanie systemu, które normalnie  wymagają podejmowania skomplikowanych i mało intuicyjnych kroków.
+
+Pulpit nawigacyjny MX Narzędzia (pokazany powyżej), skupia w sobie i organizuje te narzędzia w celu ułatwienia dostępu do nich i ich wygodnego użytkowania.
+
+Poznajmy kilka narzędzi MX, które pomogą Ci w konfiguracji i użytkowaniu Twojego komputera.
+</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="740"/>
@@ -564,7 +626,10 @@ Let's explore some MX Tools to help you setup and use your computer.
 
 MXFB Settings Manager includes many applications have been developed or adapted specifically for MX Linux Fluxbox.
 </source>
-        <translation type="unfinished"/>
+        <translation>Menedżer ustawień MXFB jest tym miejscem, w którym znajdziesz narzędzia ułatwiające wykonywanie ważnych zadań i dostosowywanie systemu — także w obszarach, które normalnie wymagają skomplikowanych lub mało intuicyjnych kroków.
+
+Menedżer ustawień MXFB obejmuje liczne aplikacje, które zostały opracowane lub dostosowane specjalnie dla MX Linux FluxBox.
+</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1299"/>
@@ -582,24 +647,24 @@ MXFB Settings Manager includes many applications have been developed or adapted 
         <location filename="../mainwindow.ui" line="1213"/>
         <source>Reddit</source>
         <extracomment>link to the mx sub reddit</extracomment>
-        <translation type="unfinished"/>
+        <translation>Reddit</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1171"/>
         <source>Below are some available resources to get help</source>
         <extracomment>generic statement about resources offered</extracomment>
-        <translation type="unfinished"/>
+        <translation>Poniżej znajdują się dostępne zasoby, umożliwiające uzyskanie pomocy</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="103"/>
         <location filename="../mainwindow.cpp" line="130"/>
         <source>MX Tour</source>
-        <translation type="unfinished"/>
+        <translation>MX Tournée</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="129"/>
         <source>About MX Tour</source>
-        <translation type="unfinished"/>
+        <translation>O MX Tournée</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="130"/>
@@ -609,7 +674,7 @@ MXFB Settings Manager includes many applications have been developed or adapted 
     <message>
         <location filename="../mainwindow.cpp" line="131"/>
         <source>Explore and learn about MX Linux</source>
-        <translation type="unfinished"/>
+        <translation>Odkrywaj i poznawaj MX Linux</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="134"/>
@@ -648,7 +713,7 @@ MXFB Settings Manager includes many applications have been developed or adapted 
     <message>
         <location filename="../main.cpp" line="44"/>
         <source>This tool displays a tabbed Tour screen.</source>
-        <translation type="unfinished"/>
+        <translation>To narzędzie wyświetla ekran Tournée w zakładkach.</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="71"/>
