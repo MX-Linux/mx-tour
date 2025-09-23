@@ -57,6 +57,7 @@ MainWindow::~MainWindow()
 // Setup versious items first time program runs
 void MainWindow::setup()
 {
+    ui->buttonPrevious->setDisabled(true);
     version = getVersion("mx-tour");
     if (checkFluxbox()) {
         fluxboxTour();
@@ -140,12 +141,27 @@ void MainWindow::on_buttonAbout_clicked()
 void MainWindow::on_buttonNext_clicked()
 {
     ui->tabWidget->setCurrentIndex(ui->tabWidget->currentIndex() + 1);
+    int tabindex = ui->tabWidget->currentIndex();
+    int tabcount = ui->tabWidget->count();
+    ui->buttonPrevious->setEnabled(true);
+    if (tabindex == tabcount - 1){
+        ui->buttonNext->setDisabled(true);
+    } else {
+        ui->buttonNext->setEnabled(true);
+    }
 }
 
 
 void MainWindow::on_buttonPrevious_clicked()
 {
     ui->tabWidget->setCurrentIndex(ui->tabWidget->currentIndex() - 1);
+    int tabindex = ui->tabWidget->currentIndex();
+    ui->buttonNext->setEnabled(true);
+    if (tabindex == 1){
+        ui->buttonPrevious->setDisabled(true);
+    } else {
+        ui->buttonPrevious->setEnabled(true);
+    }
 }
 
 bool MainWindow::checkXFCE() const
